@@ -1,0 +1,2 @@
+DEFAULT_ARCHITECTURE atom iterative
+DEFAULT_FILE atom baudrate@counter/iterative.bd
