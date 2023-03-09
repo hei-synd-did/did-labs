@@ -1,7 +1,7 @@
 version "1.1"
 HDSFlow (HDSFlow
 TaskName "Diamond Project Navigator"
-bitmap "C:\\Users\\axel.amand\\Desktop\\lattice.bmp"
+bitmap "$HDS_HOME\\resources\\bitmaps\\tools\\tool_lattice.bmp"
 hasBitmap 1
 tooltip "Diamond synthesis Flow"
 taskSettings [
