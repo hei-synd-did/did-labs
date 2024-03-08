@@ -1,0 +1,2 @@
+DEFAULT_ARCHITECTURE atom down_counter
+DEFAULT_FILE atom ind_tester_down_counter.vhd

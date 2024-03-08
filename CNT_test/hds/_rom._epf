@@ -1,0 +1,2 @@
+DEFAULT_ARCHITECTURE atom linear
+DEFAULT_FILE atom rom_linear.vhd

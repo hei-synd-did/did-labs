@@ -1,0 +1,3 @@
+DEFAULT_FILE atom cordic_ref.vhd
+DEFAULT_ARCHITECTURE atom ref
+TOP_MARKER atom 1
