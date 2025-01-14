@@ -457,23 +457,23 @@ value " "
 )
 (vvPair
 variable "HDLDir"
-value "C:\\dev\\did-labs\\Prefs\\..\\ART\\hdl"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\ART\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\dev\\did-labs\\Prefs\\..\\ART\\hds"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\ART\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\dev\\did-labs\\Prefs\\..\\ART\\hds\\serial@port@receiver\\symbol.sb.info"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\ART\\hds\\serial@port@receiver\\symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\dev\\did-labs\\Prefs\\..\\ART\\hds\\serial@port@receiver\\symbol.sb.user"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\ART\\hds\\serial@port@receiver\\symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\dev\\did-labs\\Prefs\\..\\ART\\hds"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\ART\\hds"
 )
 (vvPair
 variable "appl"
@@ -493,27 +493,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\dev\\did-labs\\Prefs\\..\\ART\\hds\\serial@port@receiver"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\ART\\hds\\serial@port@receiver"
 )
 (vvPair
 variable "d_logical"
-value "C:\\dev\\did-labs\\Prefs\\..\\ART\\hds\\serialPortReceiver"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\ART\\hds\\serialPortReceiver"
 )
 (vvPair
 variable "date"
-value "24.04.2023"
+value "14.01.2025"
 )
 (vvPair
 variable "day"
-value "lun."
+value "mar."
 )
 (vvPair
 variable "day_long"
-value "lundi"
+value "mardi"
 )
 (vvPair
 variable "dd"
-value "24"
+value "14"
 )
 (vvPair
 variable "designName"
@@ -541,11 +541,11 @@ value "symbol"
 )
 (vvPair
 variable "graphical_source_author"
-value "axel.amand"
+value "Axam"
 )
 (vvPair
 variable "graphical_source_date"
-value "24.04.2023"
+value "14.01.2025"
 )
 (vvPair
 variable "graphical_source_group"
@@ -553,11 +553,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "WE7860"
+value "WE10628"
 )
 (vvPair
 variable "graphical_source_time"
-value "08:20:41"
+value "09:27:13"
 )
 (vvPair
 variable "group"
@@ -565,7 +565,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WE7860"
+value "WE10628"
 )
 (vvPair
 variable "language"
@@ -601,7 +601,7 @@ value "U:\\ELN_Board\\Synthesis"
 )
 (vvPair
 variable "mm"
-value "04"
+value "01"
 )
 (vvPair
 variable "module_name"
@@ -609,19 +609,19 @@ value "serialPortReceiver"
 )
 (vvPair
 variable "month"
-value "avr."
+value "janv."
 )
 (vvPair
 variable "month_long"
-value "avril"
+value "janvier"
 )
 (vvPair
 variable "p"
-value "C:\\dev\\did-labs\\Prefs\\..\\ART\\hds\\serial@port@receiver\\symbol.sb"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\ART\\hds\\serial@port@receiver\\symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "C:\\dev\\did-labs\\Prefs\\..\\ART\\hds\\serialPortReceiver\\symbol.sb"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\ART\\hds\\serialPortReceiver\\symbol.sb"
 )
 (vvPair
 variable "package_name"
@@ -701,7 +701,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "08:20:41"
+value "09:27:13"
 )
 (vvPair
 variable "unit"
@@ -709,7 +709,7 @@ value "serialPortReceiver"
 )
 (vvPair
 variable "user"
-value "axel.amand"
+value "Axam"
 )
 (vvPair
 variable "version"
@@ -721,11 +721,11 @@ value "symbol"
 )
 (vvPair
 variable "year"
-value "2023"
+value "2025"
 )
 (vvPair
 variable "yy"
-value "23"
+value "25"
 )
 ]
 )
@@ -1672,7 +1672,7 @@ xt "0,9400,0,9400"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 3274,0
+lastUid 3297,0
 okToSyncOnLoad 1
 OkToSyncGenericsOnLoad 1
 activeModelName "Symbol"

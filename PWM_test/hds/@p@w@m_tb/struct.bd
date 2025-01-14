@@ -92,23 +92,23 @@ value " "
 )
 (vvPair
 variable "HDLDir"
-value "C:\\dev\\did-labs\\Prefs\\..\\PWM_test\\hdl"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\PWM_test\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\dev\\did-labs\\Prefs\\..\\PWM_test\\hds"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\PWM_test\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\dev\\did-labs\\Prefs\\..\\PWM_test\\hds\\@p@w@m_tb\\struct.bd.info"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\PWM_test\\hds\\@p@w@m_tb\\struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\dev\\did-labs\\Prefs\\..\\PWM_test\\hds\\@p@w@m_tb\\struct.bd.user"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\PWM_test\\hds\\@p@w@m_tb\\struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\dev\\did-labs\\Prefs\\..\\PWM_test\\hds"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\PWM_test\\hds"
 )
 (vvPair
 variable "appl"
@@ -128,27 +128,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\dev\\did-labs\\Prefs\\..\\PWM_test\\hds\\@p@w@m_tb"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\PWM_test\\hds\\@p@w@m_tb"
 )
 (vvPair
 variable "d_logical"
-value "C:\\dev\\did-labs\\Prefs\\..\\PWM_test\\hds\\PWM_tb"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\PWM_test\\hds\\PWM_tb"
 )
 (vvPair
 variable "date"
-value "24.04.2023"
+value "14.01.2025"
 )
 (vvPair
 variable "day"
-value "lun."
+value "mar."
 )
 (vvPair
 variable "day_long"
-value "lundi"
+value "mardi"
 )
 (vvPair
 variable "dd"
-value "24"
+value "14"
 )
 (vvPair
 variable "designName"
@@ -176,11 +176,11 @@ value "struct"
 )
 (vvPair
 variable "graphical_source_author"
-value "axel.amand"
+value "Axam"
 )
 (vvPair
 variable "graphical_source_date"
-value "24.04.2023"
+value "14.01.2025"
 )
 (vvPair
 variable "graphical_source_group"
@@ -188,11 +188,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "WE7860"
+value "WE10628"
 )
 (vvPair
 variable "graphical_source_time"
-value "08:21:20"
+value "10:19:18"
 )
 (vvPair
 variable "group"
@@ -200,7 +200,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WE7860"
+value "WE10628"
 )
 (vvPair
 variable "language"
@@ -220,7 +220,7 @@ value "$SCRATCH_DIR/ElN/PWM_test/work"
 )
 (vvPair
 variable "mm"
-value "04"
+value "01"
 )
 (vvPair
 variable "module_name"
@@ -228,19 +228,19 @@ value "PWM_tb"
 )
 (vvPair
 variable "month"
-value "avr."
+value "janv."
 )
 (vvPair
 variable "month_long"
-value "avril"
+value "janvier"
 )
 (vvPair
 variable "p"
-value "C:\\dev\\did-labs\\Prefs\\..\\PWM_test\\hds\\@p@w@m_tb\\struct.bd"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\PWM_test\\hds\\@p@w@m_tb\\struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "C:\\dev\\did-labs\\Prefs\\..\\PWM_test\\hds\\PWM_tb\\struct.bd"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\PWM_test\\hds\\PWM_tb\\struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -312,7 +312,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "08:21:20"
+value "10:19:18"
 )
 (vvPair
 variable "unit"
@@ -320,7 +320,7 @@ value "PWM_tb"
 )
 (vvPair
 variable "user"
-value "axel.amand"
+value "Axam"
 )
 (vvPair
 variable "version"
@@ -332,11 +332,11 @@ value "struct"
 )
 (vvPair
 variable "year"
-value "2023"
+value "2025"
 )
 (vvPair
 variable "yy"
-value "23"
+value "25"
 )
 ]
 )
@@ -425,7 +425,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "52200,-22600,68400,-21400"
+xt "52200,-22600,67700,-21400"
 st "
 by %user on %dd %month %year
 "
@@ -699,7 +699,7 @@ va (VaSet
 vasetType 1
 fg "40000,56832,65535"
 )
-xt "18000,-47000,92000,-39000"
+xt "24000,-47000,98000,-39000"
 )
 oxt "0,0,8000,10000"
 ttg (MlTextGroup
@@ -711,27 +711,27 @@ textVec [
 uid 1817,0
 va (VaSet
 )
-xt "18100,-38800,23900,-37600"
+xt "24100,-38800,29900,-37600"
 st "PWM_test"
-blo "18100,-37800"
+blo "24100,-37800"
 tm "BdLibraryNameMgr"
 )
 *16 (Text
 uid 1818,0
 va (VaSet
 )
-xt "18100,-37600,25600,-36400"
+xt "24100,-37600,31600,-36400"
 st "PWM_tester"
-blo "18100,-36600"
+blo "24100,-36600"
 tm "BlkNameMgr"
 )
 *17 (Text
 uid 1819,0
 va (VaSet
 )
-xt "18100,-36400,21300,-35200"
+xt "24100,-36400,27300,-35200"
 st "I_TB"
-blo "18100,-35400"
+blo "24100,-35400"
 tm "InstanceNameMgr"
 )
 ]
@@ -745,7 +745,7 @@ text (MLText
 uid 1822,0
 va (VaSet
 )
-xt "18000,-34200,44700,-31800"
+xt "24000,-34200,50700,-31800"
 st "amplitudeBitNb = amplitudeBitNb    ( positive )  
 sineFrequency  = sineFrequency     ( real     )  "
 )
@@ -771,7 +771,7 @@ va (VaSet
 vasetType 1
 fg "49152,49152,49152"
 )
-xt "18250,-40750,19750,-39250"
+xt "24250,-40750,25750,-39250"
 iconName "VhdlFileViewIcon.png"
 iconMaskName "VhdlFileViewIcon.msk"
 ftype 10
@@ -808,7 +808,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "33250,-65375,34000,-64625"
+xt "39250,-65375,40000,-64625"
 )
 tg (CPTG
 uid 2021,0
@@ -818,9 +818,9 @@ f (Text
 uid 2022,0
 va (VaSet
 )
-xt "35000,-65650,41200,-64450"
+xt "41000,-65650,47200,-64450"
 st "parallelIn"
-blo "35000,-64650"
+blo "41000,-64650"
 )
 )
 thePort (LogicalPort
@@ -843,7 +843,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "50000,-65375,50750,-64625"
+xt "56000,-65375,56750,-64625"
 )
 tg (CPTG
 uid 2025,0
@@ -853,10 +853,10 @@ f (Text
 uid 2026,0
 va (VaSet
 )
-xt "45400,-65650,49000,-64450"
+xt "51400,-65650,55000,-64450"
 st "pwm1"
 ju 2
-blo "49000,-64650"
+blo "55000,-64650"
 )
 )
 thePort (LogicalPort
@@ -879,7 +879,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "33250,-59375,34000,-58625"
+xt "39250,-59375,40000,-58625"
 )
 tg (CPTG
 uid 2029,0
@@ -889,9 +889,9 @@ f (Text
 uid 2030,0
 va (VaSet
 )
-xt "35000,-59600,38400,-58400"
+xt "41000,-59600,44400,-58400"
 st "clock"
-blo "35000,-58600"
+blo "41000,-58600"
 )
 )
 thePort (LogicalPort
@@ -913,7 +913,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "33250,-57375,34000,-56625"
+xt "39250,-57375,40000,-56625"
 )
 tg (CPTG
 uid 2033,0
@@ -923,9 +923,9 @@ f (Text
 uid 2034,0
 va (VaSet
 )
-xt "35000,-57600,38300,-56400"
+xt "41000,-57600,44300,-56400"
 st "reset"
-blo "35000,-56600"
+blo "41000,-56600"
 )
 )
 thePort (LogicalPort
@@ -947,7 +947,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "50000,-61375,50750,-60625"
+xt "56000,-61375,56750,-60625"
 )
 tg (CPTG
 uid 2037,0
@@ -957,10 +957,10 @@ f (Text
 uid 2038,0
 va (VaSet
 )
-xt "45400,-61600,49000,-60400"
+xt "51400,-61600,55000,-60400"
 st "pwm2"
 ju 2
-blo "49000,-60600"
+blo "55000,-60600"
 )
 )
 thePort (LogicalPort
@@ -983,7 +983,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "50000,-63375,50750,-62625"
+xt "56000,-63375,56750,-62625"
 )
 tg (CPTG
 uid 2041,0
@@ -993,10 +993,10 @@ f (Text
 uid 2042,0
 va (VaSet
 )
-xt "44200,-63600,49000,-62400"
+xt "50200,-63600,55000,-62400"
 st "pwm1_n"
 ju 2
-blo "49000,-62600"
+blo "55000,-62600"
 )
 )
 thePort (LogicalPort
@@ -1019,7 +1019,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "50000,-59375,50750,-58625"
+xt "56000,-59375,56750,-58625"
 )
 tg (CPTG
 uid 2045,0
@@ -1029,10 +1029,10 @@ f (Text
 uid 2046,0
 va (VaSet
 )
-xt "44200,-59600,49000,-58400"
+xt "50200,-59600,55000,-58400"
 st "pwm2_n"
 ju 2
-blo "49000,-58600"
+blo "55000,-58600"
 )
 )
 thePort (LogicalPort
@@ -1054,7 +1054,7 @@ fg "0,65535,0"
 lineColor "0,32896,0"
 lineWidth 2
 )
-xt "34000,-69000,50000,-55000"
+xt "40000,-69000,56000,-55000"
 )
 oxt "31000,11000,47000,25000"
 ttg (MlTextGroup
@@ -1066,27 +1066,27 @@ textVec [
 uid 2050,0
 va (VaSet
 )
-xt "34500,-54600,37700,-53400"
+xt "40500,-54600,43700,-53400"
 st "PWM"
-blo "34500,-53600"
+blo "40500,-53600"
 tm "BdLibraryNameMgr"
 )
 *28 (Text
 uid 2051,0
 va (VaSet
 )
-xt "34500,-53400,43100,-52200"
+xt "40500,-53400,49100,-52200"
 st "pwmModulator"
-blo "34500,-52400"
+blo "40500,-52400"
 tm "CptNameMgr"
 )
 *29 (Text
 uid 2052,0
 va (VaSet
 )
-xt "34500,-52200,38600,-51000"
+xt "40500,-52200,44600,-51000"
 st "I_DUT"
-blo "34500,-51200"
+blo "40500,-51200"
 tm "InstanceNameMgr"
 )
 ]
@@ -1101,7 +1101,7 @@ uid 2055,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "34000,-50000,55800,-49000"
+xt "40000,-50000,61800,-49000"
 st "amplitudeBitNb = amplitudeBitNb    ( positive )  "
 )
 header ""
@@ -1121,7 +1121,7 @@ va (VaSet
 vasetType 1
 fg "49152,49152,49152"
 )
-xt "34250,-56750,35750,-55250"
+xt "40250,-56750,41750,-55250"
 iconName "BlockDiagram.png"
 iconMaskName "BlockDiagram.msk"
 ftype 1
@@ -1141,7 +1141,7 @@ va (VaSet
 vasetType 1
 fg "40000,56832,65535"
 )
-xt "58000,-69000,74000,-55000"
+xt "64000,-69000,80000,-55000"
 )
 oxt "0,0,8000,10000"
 ttg (MlTextGroup
@@ -1153,27 +1153,27 @@ textVec [
 uid 2060,0
 va (VaSet
 )
-xt "58100,-54800,63900,-53600"
+xt "64100,-54800,69900,-53600"
 st "PWM_test"
-blo "58100,-53800"
+blo "64100,-53800"
 tm "BdLibraryNameMgr"
 )
 *32 (Text
 uid 2061,0
 va (VaSet
 )
-xt "58100,-53600,62600,-52400"
+xt "64100,-53600,68600,-52400"
 st "hBridge"
-blo "58100,-52600"
+blo "64100,-52600"
 tm "BlkNameMgr"
 )
 *33 (Text
 uid 2062,0
 va (VaSet
 )
-xt "58100,-52400,63000,-51200"
+xt "64100,-52400,69000,-51200"
 st "I_bridge"
-blo "58100,-51400"
+blo "64100,-51400"
 tm "InstanceNameMgr"
 )
 ]
@@ -1187,7 +1187,7 @@ text (MLText
 uid 2065,0
 va (VaSet
 )
-xt "58000,-51400,85100,-46600"
+xt "64000,-51400,91100,-46600"
 st "Vp           = powerAmplitude         ( real )  
 Vm           = -powerAmplitude        ( real )  
 resistance   = loadResistance         ( real )  
@@ -1225,7 +1225,7 @@ va (VaSet
 vasetType 1
 fg "49152,49152,49152"
 )
-xt "58250,-56750,59750,-55250"
+xt "64250,-56750,65750,-55250"
 iconName "VhdlFileViewIcon.png"
 iconMaskName "VhdlFileViewIcon.msk"
 ftype 10
@@ -1367,11 +1367,11 @@ uid 1608,0
 va (VaSet
 vasetType 3
 )
-xt "32000,-57000,33250,-47000"
+xt "38000,-57000,39250,-47000"
 pts [
-"33250,-57000"
-"32000,-57000"
-"32000,-47000"
+"39250,-57000"
+"38000,-57000"
+"38000,-47000"
 ]
 )
 start &23
@@ -1390,9 +1390,9 @@ uid 1612,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "28250,-58400,32350,-57000"
+xt "34250,-58400,38350,-57000"
 st "reset"
-blo "28250,-57200"
+blo "34250,-57200"
 tm "WireNameMgr"
 )
 )
@@ -1405,11 +1405,11 @@ uid 1616,0
 va (VaSet
 vasetType 3
 )
-xt "30000,-59000,33250,-47000"
+xt "36000,-59000,39250,-47000"
 pts [
-"33250,-59000"
-"30000,-59000"
-"30000,-47000"
+"39250,-59000"
+"36000,-59000"
+"36000,-47000"
 ]
 )
 start &22
@@ -1428,9 +1428,9 @@ uid 1620,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "28250,-60400,32050,-59000"
+xt "34250,-60400,38050,-59000"
 st "clock"
-blo "28250,-59200"
+blo "34250,-59200"
 tm "WireNameMgr"
 )
 )
@@ -1444,11 +1444,11 @@ va (VaSet
 vasetType 3
 lineWidth 2
 )
-xt "26000,-65000,33250,-47000"
+xt "32000,-65000,39250,-47000"
 pts [
-"33250,-65000"
-"26000,-65000"
-"26000,-47000"
+"39250,-65000"
+"32000,-65000"
+"32000,-47000"
 ]
 )
 start &20
@@ -1468,9 +1468,9 @@ uid 1895,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "24250,-66400,31750,-65000"
+xt "30250,-66400,37750,-65000"
 st "parallelIn"
-blo "24250,-65200"
+blo "30250,-65200"
 tm "WireNameMgr"
 )
 )
@@ -1483,10 +1483,10 @@ uid 2070,0
 va (VaSet
 vasetType 3
 )
-xt "50750,-65000,58000,-65000"
+xt "56750,-65000,64000,-65000"
 pts [
-"50750,-65000"
-"58000,-65000"
+"56750,-65000"
+"64000,-65000"
 ]
 )
 start &21
@@ -1505,9 +1505,9 @@ uid 2074,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "52750,-66400,57350,-65000"
+xt "58750,-66400,63350,-65000"
 st "pwm1"
-blo "52750,-65200"
+blo "58750,-65200"
 tm "WireNameMgr"
 )
 )
@@ -1520,10 +1520,10 @@ uid 2078,0
 va (VaSet
 vasetType 3
 )
-xt "50750,-63000,58000,-63000"
+xt "56750,-63000,64000,-63000"
 pts [
-"50750,-63000"
-"58000,-63000"
+"56750,-63000"
+"64000,-63000"
 ]
 )
 start &25
@@ -1542,9 +1542,9 @@ uid 2082,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "52750,-64400,58950,-63000"
+xt "58750,-64400,64950,-63000"
 st "pwm1_n"
-blo "52750,-63200"
+blo "58750,-63200"
 tm "WireNameMgr"
 )
 )
@@ -1557,10 +1557,10 @@ uid 2086,0
 va (VaSet
 vasetType 3
 )
-xt "50750,-61000,58000,-61000"
+xt "56750,-61000,64000,-61000"
 pts [
-"50750,-61000"
-"58000,-61000"
+"56750,-61000"
+"64000,-61000"
 ]
 )
 start &24
@@ -1579,9 +1579,9 @@ uid 2090,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "52750,-62400,57350,-61000"
+xt "58750,-62400,63350,-61000"
 st "pwm2"
-blo "52750,-61200"
+blo "58750,-61200"
 tm "WireNameMgr"
 )
 )
@@ -1594,10 +1594,10 @@ uid 2094,0
 va (VaSet
 vasetType 3
 )
-xt "50750,-59000,58000,-59000"
+xt "56750,-59000,64000,-59000"
 pts [
-"50750,-59000"
-"58000,-59000"
+"56750,-59000"
+"64000,-59000"
 ]
 )
 start &26
@@ -1616,9 +1616,9 @@ uid 2098,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "52750,-60400,58950,-59000"
+xt "58750,-60400,64950,-59000"
 st "pwm2_n"
-blo "52750,-59200"
+blo "58750,-59200"
 tm "WireNameMgr"
 )
 )
@@ -1632,11 +1632,11 @@ va (VaSet
 vasetType 3
 lineWidth 2
 )
-xt "74000,-65000,84000,-47000"
+xt "80000,-65000,90000,-47000"
 pts [
-"74000,-65000"
-"84000,-65000"
-"84000,-47000"
+"80000,-65000"
+"90000,-65000"
+"90000,-47000"
 ]
 )
 start &30
@@ -1657,9 +1657,9 @@ uid 2108,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "76000,-66400,83000,-65000"
+xt "82000,-66400,89000,-65000"
 st "amplitude"
-blo "76000,-65200"
+blo "82000,-65200"
 tm "WireNameMgr"
 )
 )
@@ -1673,11 +1673,11 @@ va (VaSet
 vasetType 3
 lineWidth 2
 )
-xt "74000,-63000,82000,-47000"
+xt "80000,-63000,88000,-47000"
 pts [
-"74000,-63000"
-"82000,-63000"
-"82000,-47000"
+"80000,-63000"
+"88000,-63000"
+"88000,-47000"
 ]
 )
 start &30
@@ -1698,9 +1698,9 @@ uid 2118,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "76000,-64400,87300,-63000"
+xt "82000,-64400,93300,-63000"
 st "meanAmplitude"
-blo "76000,-63200"
+blo "82000,-63200"
 tm "WireNameMgr"
 )
 )
@@ -1714,11 +1714,11 @@ va (VaSet
 vasetType 3
 lineWidth 2
 )
-xt "74000,-61000,80000,-47000"
+xt "80000,-61000,86000,-47000"
 pts [
-"74000,-61000"
 "80000,-61000"
-"80000,-47000"
+"86000,-61000"
+"86000,-47000"
 ]
 )
 start &30
@@ -1739,9 +1739,9 @@ uid 2152,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "76000,-62400,81300,-61000"
+xt "82000,-62400,87300,-61000"
 st "current"
-blo "76000,-61200"
+blo "82000,-61200"
 tm "WireNameMgr"
 )
 )
@@ -1755,11 +1755,11 @@ va (VaSet
 vasetType 3
 lineWidth 2
 )
-xt "74000,-59000,78000,-47000"
+xt "80000,-59000,84000,-47000"
 pts [
-"74000,-59000"
-"78000,-59000"
-"78000,-47000"
+"80000,-59000"
+"84000,-59000"
+"84000,-47000"
 ]
 )
 start &30
@@ -1780,9 +1780,9 @@ uid 2162,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "76000,-60400,85900,-59000"
+xt "82000,-60400,91900,-59000"
 st "meanCurrent"
-blo "76000,-59200"
+blo "82000,-59200"
 tm "WireNameMgr"
 )
 )
@@ -1899,9 +1899,9 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "-8,-8,1928,1048"
-viewArea "-1413,-87633,124323,-19317"
-cachedDiagramExtent "0,-86200,98000,8200"
+windowSize "-1928,-259,8,789"
+viewArea "-1426,-87598,125386,-19292"
+cachedDiagramExtent "0,-86200,98000,8400"
 pageSetupInfo (PageSetupInfo
 ptrCmd "\\\\ipp://ippsion.hevs.ch\\PREA309_HPLJ3005DN,winspool,"
 fileName "\\\\EIV\\a309_hplj4050.electro.eiv"
@@ -1926,7 +1926,7 @@ boundaryWidth 0
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "0,-87000"
-lastUid 2700,0
+lastUid 2753,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0

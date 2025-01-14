@@ -58,23 +58,23 @@ value " "
 )
 (vvPair
 variable "HDLDir"
-value "C:\\dev\\did-labs\\Prefs\\..\\ALU_test\\hdl"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\ALU_test\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\dev\\did-labs\\Prefs\\..\\ALU_test\\hds"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\ALU_test\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\dev\\did-labs\\Prefs\\..\\ALU_test\\hds\\@a@u8_tb\\struct.bd.info"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\ALU_test\\hds\\@a@u8_tb\\struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\dev\\did-labs\\Prefs\\..\\ALU_test\\hds\\@a@u8_tb\\struct.bd.user"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\ALU_test\\hds\\@a@u8_tb\\struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\dev\\did-labs\\Prefs\\..\\ALU_test\\hds"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\ALU_test\\hds"
 )
 (vvPair
 variable "appl"
@@ -94,27 +94,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\dev\\did-labs\\Prefs\\..\\ALU_test\\hds\\@a@u8_tb"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\ALU_test\\hds\\@a@u8_tb"
 )
 (vvPair
 variable "d_logical"
-value "C:\\dev\\did-labs\\Prefs\\..\\ALU_test\\hds\\AU8_tb"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\ALU_test\\hds\\AU8_tb"
 )
 (vvPair
 variable "date"
-value "24.04.2023"
+value "14.01.2025"
 )
 (vvPair
 variable "day"
-value "lun."
+value "mar."
 )
 (vvPair
 variable "day_long"
-value "lundi"
+value "mardi"
 )
 (vvPair
 variable "dd"
-value "24"
+value "14"
 )
 (vvPair
 variable "designName"
@@ -142,11 +142,11 @@ value "struct"
 )
 (vvPair
 variable "graphical_source_author"
-value "axel.amand"
+value "Axam"
 )
 (vvPair
 variable "graphical_source_date"
-value "24.04.2023"
+value "14.01.2025"
 )
 (vvPair
 variable "graphical_source_group"
@@ -154,11 +154,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "WE7860"
+value "WE10628"
 )
 (vvPair
 variable "graphical_source_time"
-value "08:34:49"
+value "09:26:03"
 )
 (vvPair
 variable "group"
@@ -166,7 +166,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WE7860"
+value "WE10628"
 )
 (vvPair
 variable "language"
@@ -186,7 +186,7 @@ value "$SCRATCH_DIR/ElN/ALU_test/work"
 )
 (vvPair
 variable "mm"
-value "04"
+value "01"
 )
 (vvPair
 variable "module_name"
@@ -194,19 +194,19 @@ value "AU8_tb"
 )
 (vvPair
 variable "month"
-value "avr."
+value "janv."
 )
 (vvPair
 variable "month_long"
-value "avril"
+value "janvier"
 )
 (vvPair
 variable "p"
-value "C:\\dev\\did-labs\\Prefs\\..\\ALU_test\\hds\\@a@u8_tb\\struct.bd"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\ALU_test\\hds\\@a@u8_tb\\struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "C:\\dev\\did-labs\\Prefs\\..\\ALU_test\\hds\\AU8_tb\\struct.bd"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\ALU_test\\hds\\AU8_tb\\struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -278,7 +278,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "08:34:49"
+value "09:26:03"
 )
 (vvPair
 variable "unit"
@@ -286,7 +286,7 @@ value "AU8_tb"
 )
 (vvPair
 variable "user"
-value "axel.amand"
+value "Axam"
 )
 (vvPair
 variable "version"
@@ -298,11 +298,11 @@ value "struct"
 )
 (vvPair
 variable "year"
-value "2023"
+value "2025"
 )
 (vvPair
 variable "yy"
-value "23"
+value "25"
 )
 ]
 )
@@ -391,7 +391,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "52200,-27600,65500,-26400"
+xt "52200,-27600,70000,-26400"
 st "
 by %user on %dd %month %year
 "
@@ -1519,8 +1519,8 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "-8,-8,1928,1048"
-viewArea "-1432,-93414,125925,-24219"
+windowSize "-1928,-259,8,789"
+viewArea "-1400,-93400,126700,-24400"
 cachedDiagramExtent "0,-92000,98000,8400"
 pageSetupInfo (PageSetupInfo
 ptrCmd ""
@@ -1541,7 +1541,7 @@ boundaryWidth 0
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "0,-92000"
-lastUid 681,0
+lastUid 716,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0

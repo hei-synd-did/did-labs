@@ -66,23 +66,23 @@ value " "
 )
 (vvPair
 variable "HDLDir"
-value "C:\\dev\\did-labs\\Prefs\\..\\ADD\\hdl"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\ADD\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\dev\\did-labs\\Prefs\\..\\ADD\\hds"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\ADD\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\dev\\did-labs\\Prefs\\..\\ADD\\hds\\add4\\struct.bd.info"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\ADD\\hds\\add4\\struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\dev\\did-labs\\Prefs\\..\\ADD\\hds\\add4\\struct.bd.user"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\ADD\\hds\\add4\\struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\dev\\did-labs\\Prefs\\..\\ADD\\hds"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\ADD\\hds"
 )
 (vvPair
 variable "appl"
@@ -102,27 +102,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\dev\\did-labs\\Prefs\\..\\ADD\\hds\\add4"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\ADD\\hds\\add4"
 )
 (vvPair
 variable "d_logical"
-value "C:\\dev\\did-labs\\Prefs\\..\\ADD\\hds\\add4"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\ADD\\hds\\add4"
 )
 (vvPair
 variable "date"
-value "24.04.2023"
+value "14.01.2025"
 )
 (vvPair
 variable "day"
-value "lun."
+value "mar."
 )
 (vvPair
 variable "day_long"
-value "lundi"
+value "mardi"
 )
 (vvPair
 variable "dd"
-value "24"
+value "14"
 )
 (vvPair
 variable "designName"
@@ -150,11 +150,11 @@ value "struct"
 )
 (vvPair
 variable "graphical_source_author"
-value "axel.amand"
+value "Axam"
 )
 (vvPair
 variable "graphical_source_date"
-value "24.04.2023"
+value "14.01.2025"
 )
 (vvPair
 variable "graphical_source_group"
@@ -162,11 +162,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "WE7860"
+value "WE10628"
 )
 (vvPair
 variable "graphical_source_time"
-value "08:15:58"
+value "09:23:32"
 )
 (vvPair
 variable "group"
@@ -174,7 +174,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WE7860"
+value "WE10628"
 )
 (vvPair
 variable "language"
@@ -202,7 +202,7 @@ value "D:\\Users\\Syslo\\Master\\Synthesis"
 )
 (vvPair
 variable "mm"
-value "04"
+value "01"
 )
 (vvPair
 variable "module_name"
@@ -210,19 +210,19 @@ value "add4"
 )
 (vvPair
 variable "month"
-value "avr."
+value "janv."
 )
 (vvPair
 variable "month_long"
-value "avril"
+value "janvier"
 )
 (vvPair
 variable "p"
-value "C:\\dev\\did-labs\\Prefs\\..\\ADD\\hds\\add4\\struct.bd"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\ADD\\hds\\add4\\struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "C:\\dev\\did-labs\\Prefs\\..\\ADD\\hds\\add4\\struct.bd"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\ADD\\hds\\add4\\struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -294,7 +294,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "08:15:58"
+value "09:23:32"
 )
 (vvPair
 variable "unit"
@@ -302,7 +302,7 @@ value "add4"
 )
 (vvPair
 variable "user"
-value "axel.amand"
+value "Axam"
 )
 (vvPair
 variable "version"
@@ -314,11 +314,11 @@ value "struct"
 )
 (vvPair
 variable "year"
-value "2023"
+value "2025"
 )
 (vvPair
 variable "yy"
-value "23"
+value "25"
 )
 ]
 )
@@ -407,7 +407,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "58200,63400,74300,64600"
+xt "58200,63400,76000,64600"
 st "
 by %user on %dd %month %year
 "
@@ -3134,8 +3134,8 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "-8,-8,1928,1048"
-viewArea "4578,-2432,131843,66714"
+windowSize "-1928,-259,8,789"
+viewArea "4545,-2453,132912,66691"
 cachedDiagramExtent "6000,-1000,104000,65000"
 pageSetupInfo (PageSetupInfo
 ptrCmd "\\\\SUN\\PREA309_HPLJ3005DN.PRINTERS.SYSTEM.SION.HEVs,winspool,"
@@ -3162,7 +3162,7 @@ boundaryWidth 0
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "6000,-1000"
-lastUid 1564,0
+lastUid 1593,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0

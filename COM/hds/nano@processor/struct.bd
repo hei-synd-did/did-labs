@@ -147,23 +147,23 @@ value " "
 )
 (vvPair
 variable "HDLDir"
-value "C:\\dev\\did-labs\\Prefs\\..\\COM\\hdl"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\COM\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\dev\\did-labs\\Prefs\\..\\COM\\hds"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\COM\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\dev\\did-labs\\Prefs\\..\\COM\\hds\\nano@processor\\struct.bd.info"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\COM\\hds\\nano@processor\\struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\dev\\did-labs\\Prefs\\..\\COM\\hds\\nano@processor\\struct.bd.user"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\COM\\hds\\nano@processor\\struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\dev\\did-labs\\Prefs\\..\\COM\\hds"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\COM\\hds"
 )
 (vvPair
 variable "appl"
@@ -183,27 +183,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\dev\\did-labs\\Prefs\\..\\COM\\hds\\nano@processor"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\COM\\hds\\nano@processor"
 )
 (vvPair
 variable "d_logical"
-value "C:\\dev\\did-labs\\Prefs\\..\\COM\\hds\\nanoProcessor"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\COM\\hds\\nanoProcessor"
 )
 (vvPair
 variable "date"
-value "24.04.2023"
+value "14.01.2025"
 )
 (vvPair
 variable "day"
-value "lun."
+value "mar."
 )
 (vvPair
 variable "day_long"
-value "lundi"
+value "mardi"
 )
 (vvPair
 variable "dd"
-value "24"
+value "14"
 )
 (vvPair
 variable "designName"
@@ -231,11 +231,11 @@ value "struct"
 )
 (vvPair
 variable "graphical_source_author"
-value "axel.amand"
+value "Axam"
 )
 (vvPair
 variable "graphical_source_date"
-value "24.04.2023"
+value "14.01.2025"
 )
 (vvPair
 variable "graphical_source_group"
@@ -243,11 +243,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "WE7860"
+value "WE10628"
 )
 (vvPair
 variable "graphical_source_time"
-value "08:18:28"
+value "10:13:23"
 )
 (vvPair
 variable "group"
@@ -255,7 +255,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WE7860"
+value "WE10628"
 )
 (vvPair
 variable "language"
@@ -291,7 +291,7 @@ value "U:\\ELN_Board\\Synthesis"
 )
 (vvPair
 variable "mm"
-value "04"
+value "01"
 )
 (vvPair
 variable "module_name"
@@ -299,19 +299,19 @@ value "nanoProcessor"
 )
 (vvPair
 variable "month"
-value "avr."
+value "janv."
 )
 (vvPair
 variable "month_long"
-value "avril"
+value "janvier"
 )
 (vvPair
 variable "p"
-value "C:\\dev\\did-labs\\Prefs\\..\\COM\\hds\\nano@processor\\struct.bd"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\COM\\hds\\nano@processor\\struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "C:\\dev\\did-labs\\Prefs\\..\\COM\\hds\\nanoProcessor\\struct.bd"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\COM\\hds\\nanoProcessor\\struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -395,7 +395,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "08:18:28"
+value "10:13:23"
 )
 (vvPair
 variable "unit"
@@ -403,7 +403,7 @@ value "nanoProcessor"
 )
 (vvPair
 variable "user"
-value "axel.amand"
+value "Axam"
 )
 (vvPair
 variable "version"
@@ -415,11 +415,11 @@ value "struct"
 )
 (vvPair
 variable "year"
-value "2023"
+value "2025"
 )
 (vvPair
 variable "yy"
-value "23"
+value "25"
 )
 ]
 )
@@ -508,7 +508,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "161200,110400,179500,111600"
+xt "161200,110400,179000,111600"
 st "
 by %user on %dd %month %year
 "
@@ -5162,8 +5162,8 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "-8,-8,1928,1048"
-viewArea "21342,-14631,260157,115123"
+windowSize "-1928,-259,8,789"
+viewArea "21274,-14770,262353,115086"
 cachedDiagramExtent "20000,-12000,216700,112000"
 pageSetupInfo (PageSetupInfo
 ptrCmd "\\\\SUN\\PREA309_HPLJ3005DN.PRINTERS.SYSTEM.SION.HEVs,winspool,"
@@ -5187,7 +5187,7 @@ boundaryWidth 0
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "24000,-12000"
-lastUid 24060,0
+lastUid 24099,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
