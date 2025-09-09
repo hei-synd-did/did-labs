@@ -19,17 +19,15 @@
 --------------------------------------------------------------------------------
 
 ARCHITECTURE rtl OF toggler IS
-
+ 
   signal inputDebounced : std_ulogic;
   signal inputDelayed, inputChangedTo1 : std_ulogic;
   signal toggle_int : std_ulogic;
 
-  COMPONENT debounce
+  COMPONENT debouncer
   GENERIC (
-    g_debounceTime             : time       := 10 us;
-    g_minConsecutiveStateCount : positive   := 10;
-    g_clockFrequency           : real       := 60.0e6;
-    g_activeState              : std_ulogic := '1'
+    counterBitNb : positive := 18;
+    invertInput : std_ulogic := '0'
   );
   PORT (
     reset     : IN     std_ulogic ;
@@ -41,18 +39,16 @@ ARCHITECTURE rtl OF toggler IS
 
 BEGIN
   ------------------------------------------------------------------------------
-                                                              -- Debounce input
-  useInputDirectly: if g_debounceTime = 0 ps generate
+                                                               -- Debounce input
+  useInputDirectly: if counterBitNb = 0 generate
     inputDebounced <= input;
   end generate useInputDirectly;
 
-  debounceInput: if g_debounceTime > 0 ps generate
-    I_debounce : debounce
+  debounceInput: if counterBitNb > 0 generate
+    I_debouncer : debouncer
       GENERIC MAP (
-        g_minConsecutiveStateCount => g_minConsecutiveStateCount,
-        g_debounceTime             => g_debounceTime,
-        g_clockFrequency           => g_clockFrequency,
-        g_activeState              => g_activeState
+        counterBitNb => counterBitNb,
+        invertInput => invertInput
       )
       PORT MAP (
         reset     => reset,
@@ -63,7 +59,7 @@ BEGIN
   end generate debounceInput;
 
   ------------------------------------------------------------------------------
-                                                          -- Find edge on input
+                                                           -- Find edge on input
   delayInput: process(reset, clock)
   begin
     if reset = '1' then
@@ -88,7 +84,7 @@ BEGIN
       end if;
     end if;
   end process toggleOutput;
-
-  toggle <= toggle_int;
-
+ 
+   toggle <= toggle_int;
+ 
 END ARCHITECTURE rtl;
