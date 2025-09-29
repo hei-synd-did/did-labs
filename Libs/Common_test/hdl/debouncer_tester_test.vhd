@@ -1,4 +1,4 @@
-ARCHITECTURE test OF toggler_tester IS
+ARCHITECTURE test OF debouncer_tester IS
 
   constant clockFrequency : real := 66.0E6;
   constant clockPeriod     : time := 1.0/clockFrequency * 1 sec;
@@ -42,13 +42,6 @@ BEGIN
              '0' after  5*clockPeriod,
              '1' after  6*clockPeriod,
              '0' after  8*clockPeriod;
-    wait for 50*clockPeriod;
-                                                      -- further toggle commands
-    input <= '1', '0' after clockPeriod;
-    wait for 50*clockPeriod;
-    input <= '1', '0' after clockPeriod;
-    wait for 50*clockPeriod;
-                                                                -- short 1 pulse
                                                             -- end of simulation
     wait;
   end process;

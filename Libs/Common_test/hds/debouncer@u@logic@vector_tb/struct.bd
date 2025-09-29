@@ -16,25 +16,45 @@ instances [
 (Instance
 name "I_tb"
 duLibraryName "Common_test"
-duName "toggler_tester"
+duName "debouncerULogicVector_tester"
 elements [
+(GiElement
+name "inputBitNb"
+type "positive"
+value "inputBitNb"
+)
+(GiElement
+name "counterBitNb"
+type "positive"
+value "counterBitNb"
+)
 ]
 mwi 0
 uid 377,0
 )
 (Instance
-name "I_togl"
+name "I_filt"
 duLibraryName "Common"
-duName "toggler"
+duName "debouncerULogicVector"
 elements [
 (GiElement
+name "inputBitNb"
+type "positive"
+value "inputBitNb"
+)
+(GiElement
 name "counterBitNb"
-type "natural"
+type "positive"
 value "counterBitNb"
+)
+(GiElement
+name "invertInput"
+type "std_ulogic"
+value "'0'"
 )
 ]
 mwi 0
-uid 6332,0
+uid 6296,0
 )
 ]
 libraryRefs [
@@ -61,11 +81,11 @@ value "/home/francois/Documents/HEVs/Kart/eln_kart/04-Controller/../Libs/Common_
 )
 (vvPair
 variable "SideDataDesignDir"
-value "/home/francois/Documents/HEVs/Kart/eln_kart/04-Controller/../Libs/Common_test/hds/toggler_tb/struct.bd.info"
+value "/home/francois/Documents/HEVs/Kart/eln_kart/04-Controller/../Libs/Common_test/hds/debouncer@u@logic@vector_tb/struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "/home/francois/Documents/HEVs/Kart/eln_kart/04-Controller/../Libs/Common_test/hds/toggler_tb/struct.bd.user"
+value "/home/francois/Documents/HEVs/Kart/eln_kart/04-Controller/../Libs/Common_test/hds/debouncer@u@logic@vector_tb/struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
@@ -89,11 +109,11 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "/home/francois/Documents/HEVs/Kart/eln_kart/04-Controller/../Libs/Common_test/hds/toggler_tb"
+value "/home/francois/Documents/HEVs/Kart/eln_kart/04-Controller/../Libs/Common_test/hds/debouncer@u@logic@vector_tb"
 )
 (vvPair
 variable "d_logical"
-value "/home/francois/Documents/HEVs/Kart/eln_kart/04-Controller/../Libs/Common_test/hds/toggler_tb"
+value "/home/francois/Documents/HEVs/Kart/eln_kart/04-Controller/../Libs/Common_test/hds/debouncerULogicVector_tb"
 )
 (vvPair
 variable "date"
@@ -117,7 +137,7 @@ value "$DESIGN_NAME"
 )
 (vvPair
 variable "entity_name"
-value "toggler_tb"
+value "debouncerULogicVector_tb"
 )
 (vvPair
 variable "ext"
@@ -153,7 +173,7 @@ value "Aphelia"
 )
 (vvPair
 variable "graphical_source_time"
-value "13:43:56"
+value "13:43:51"
 )
 (vvPair
 variable "group"
@@ -185,7 +205,7 @@ value "08"
 )
 (vvPair
 variable "module_name"
-value "toggler_tb"
+value "debouncerULogicVector_tb"
 )
 (vvPair
 variable "month"
@@ -197,11 +217,11 @@ value "August"
 )
 (vvPair
 variable "p"
-value "/home/francois/Documents/HEVs/Kart/eln_kart/04-Controller/../Libs/Common_test/hds/toggler_tb/struct.bd"
+value "/home/francois/Documents/HEVs/Kart/eln_kart/04-Controller/../Libs/Common_test/hds/debouncer@u@logic@vector_tb/struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "/home/francois/Documents/HEVs/Kart/eln_kart/04-Controller/../Libs/Common_test/hds/toggler_tb/struct.bd"
+value "/home/francois/Documents/HEVs/Kart/eln_kart/04-Controller/../Libs/Common_test/hds/debouncerULogicVector_tb/struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -233,7 +253,7 @@ value "$ISE_HOME"
 )
 (vvPair
 variable "task_ISEPath"
-value "$SCRATCH_DIR\\$DESIGN_NAME\\$ISE_WORK_DIR"
+value "$SCRATCH_DIR\\$DESIGN_NAME\\Board\\ise"
 )
 (vvPair
 variable "task_LeonardoPath"
@@ -277,11 +297,11 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "13:43:56"
+value "13:43:51"
 )
 (vvPair
 variable "unit"
-value "toggler_tb"
+value "debouncerULogicVector_tb"
 )
 (vvPair
 variable "user"
@@ -607,7 +627,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "36200,-2000,50600,-1000"
+xt "36200,-2000,46400,-1000"
 st "
 %library/%unit/%view
 "
@@ -666,8 +686,8 @@ uid 381,0
 va (VaSet
 font "courier,8,1"
 )
-xt "19150,-9500,25150,-8500"
-st "toggler_tester"
+xt "19150,-9500,31950,-8500"
+st "debouncerULogicVector_tester"
 blo "19150,-8700"
 tm "BlkNameMgr"
 )
@@ -693,11 +713,23 @@ uid 385,0
 va (VaSet
 font "courier,8,0"
 )
-xt "19000,-7600,42500,-6000"
+xt "19000,-7600,42000,-5800"
+st "inputBitNb   = inputBitNb      ( positive )  
+counterBitNb = counterBitNb    ( positive )  "
 )
 header ""
 )
 elements [
+(GiElement
+name "inputBitNb"
+type "positive"
+value "inputBitNb"
+)
+(GiElement
+name "counterBitNb"
+type "positive"
+value "counterBitNb"
+)
 ]
 )
 viewicon (ZoomableIcon
@@ -719,7 +751,7 @@ uid 6090,0
 decl (Decl
 n "reset"
 t "std_ulogic"
-o 3
+o 4
 suid 100,0
 )
 declText (MLText
@@ -727,8 +759,8 @@ uid 6091,0
 va (VaSet
 font "courier,8,0"
 )
-xt "2000,-37500,15500,-36600"
-st "SIGNAL reset  : std_ulogic"
+xt "2000,-35700,17000,-34800"
+st "SIGNAL reset     : std_ulogic"
 )
 )
 *17 (Net
@@ -744,16 +776,17 @@ uid 6099,0
 va (VaSet
 font "courier,8,0"
 )
-xt "2000,-39300,15500,-38400"
-st "SIGNAL clock  : std_ulogic"
+xt "2000,-38400,17000,-37500"
+st "SIGNAL clock     : std_ulogic"
 )
 )
 *18 (Net
 uid 6106,0
 decl (Decl
 n "input"
-t "std_ulogic"
-o 2
+t "std_ulogic_vector"
+b "(1 TO inputBitNb)"
+o 3
 suid 102,0
 )
 declText (MLText
@@ -761,35 +794,36 @@ uid 6107,0
 va (VaSet
 font "courier,8,0"
 )
-xt "2000,-38400,15500,-37500"
-st "SIGNAL input  : std_ulogic"
+xt "2000,-36600,29000,-35700"
+st "SIGNAL input     : std_ulogic_vector(1 TO inputBitNb)"
 )
 )
 *19 (Net
-uid 6306,0
+uid 6114,0
 decl (Decl
-n "toggle"
-t "std_ulogic"
-o 4
-suid 104,0
+n "debounced"
+t "std_ulogic_vector"
+b "(1 TO inputBitNb)"
+o 2
+suid 103,0
 )
 declText (MLText
-uid 6307,0
+uid 6115,0
 va (VaSet
 font "courier,8,0"
 )
-xt "2000,-36600,15500,-35700"
-st "SIGNAL toggle : std_ulogic"
+xt "2000,-37500,29000,-36600"
+st "SIGNAL debounced : std_ulogic_vector(1 TO inputBitNb)"
 )
 )
 *20 (SaComponent
-uid 6332,0
+uid 6296,0
 optionalChildren [
 *21 (CptPort
-uid 6316,0
+uid 6280,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 6317,0
+uid 6281,0
 ro 90
 va (VaSet
 vasetType 1
@@ -798,11 +832,11 @@ fg "0,65535,0"
 xt "34250,-31375,35000,-30625"
 )
 tg (CPTG
-uid 6318,0
+uid 6282,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 6319,0
+uid 6283,0
 va (VaSet
 )
 xt "36000,-31500,38100,-30500"
@@ -820,10 +854,10 @@ suid 1,0
 )
 )
 *22 (CptPort
-uid 6320,0
+uid 6284,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 6321,0
+uid 6285,0
 ro 90
 va (VaSet
 vasetType 1
@@ -832,11 +866,11 @@ fg "0,65535,0"
 xt "34250,-35375,35000,-34625"
 )
 tg (CPTG
-uid 6322,0
+uid 6286,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 6323,0
+uid 6287,0
 va (VaSet
 )
 xt "36000,-35500,38000,-34500"
@@ -847,17 +881,18 @@ blo "36000,-34700"
 thePort (LogicalPort
 decl (Decl
 n "input"
-t "std_ulogic"
+t "std_ulogic_vector"
+b "(1 to inputBitNb)"
 o 2
 suid 2,0
 )
 )
 )
 *23 (CptPort
-uid 6324,0
+uid 6288,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 6325,0
+uid 6289,0
 ro 90
 va (VaSet
 vasetType 1
@@ -866,11 +901,11 @@ fg "0,65535,0"
 xt "34250,-29375,35000,-28625"
 )
 tg (CPTG
-uid 6326,0
+uid 6290,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 6327,0
+uid 6291,0
 va (VaSet
 )
 xt "36000,-29500,38100,-28500"
@@ -888,10 +923,10 @@ suid 3,0
 )
 )
 *24 (CptPort
-uid 6328,0
+uid 6292,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 6329,0
+uid 6293,0
 ro 90
 va (VaSet
 vasetType 1
@@ -900,15 +935,15 @@ fg "0,65535,0"
 xt "51000,-35375,51750,-34625"
 )
 tg (CPTG
-uid 6330,0
+uid 6294,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 6331,0
+uid 6295,0
 va (VaSet
 )
-xt "47400,-35500,50000,-34500"
-st "toggle"
+xt "46000,-35500,50000,-34500"
+st "debounced"
 ju 2
 blo "50000,-34700"
 )
@@ -916,8 +951,9 @@ blo "50000,-34700"
 thePort (LogicalPort
 m 1
 decl (Decl
-n "toggle"
-t "std_ulogic"
+n "debounced"
+t "std_ulogic_vector"
+b "(1 to inputBitNb)"
 o 4
 suid 4,0
 )
@@ -925,7 +961,7 @@ suid 4,0
 )
 ]
 shape (Rectangle
-uid 6333,0
+uid 6297,0
 va (VaSet
 vasetType 1
 fg "0,65535,0"
@@ -934,14 +970,14 @@ lineWidth 2
 )
 xt "35000,-39000,51000,-27000"
 )
-oxt "43000,11000,59000,23000"
+oxt "40000,9000,56000,21000"
 ttg (MlTextGroup
-uid 6334,0
+uid 6298,0
 ps "CenterOffsetStrategy"
 stg "VerticalLayoutStrategy"
 textVec [
 *25 (Text
-uid 6335,0
+uid 6299,0
 va (VaSet
 font "courier,8,1"
 )
@@ -951,52 +987,64 @@ blo "35200,-26200"
 tm "BdLibraryNameMgr"
 )
 *26 (Text
-uid 6336,0
+uid 6300,0
 va (VaSet
 font "courier,8,1"
 )
-xt "35200,-26000,38300,-25000"
-st "toggler"
+xt "35200,-26000,45500,-25000"
+st "debouncerULogicVector"
 blo "35200,-25200"
 tm "CptNameMgr"
 )
 *27 (Text
-uid 6337,0
+uid 6301,0
 va (VaSet
 font "courier,8,1"
 )
-xt "35200,-25000,37700,-24000"
-st "I_togl"
+xt "35200,-25000,37200,-24000"
+st "I_filt"
 blo "35200,-24200"
 tm "InstanceNameMgr"
 )
 ]
 )
 ga (GenericAssociation
-uid 6338,0
+uid 6302,0
 ps "EdgeToEdgeStrategy"
 matrix (Matrix
-uid 6339,0
+uid 6303,0
 text (MLText
-uid 6340,0
+uid 6304,0
 va (VaSet
 font "courier,8,0"
 )
-xt "35000,-24200,57500,-23300"
-st "counterBitNb = counterBitNb    ( natural )  "
+xt "35000,-24200,59200,-21500"
+st "inputBitNb   = inputBitNb      ( positive   )  
+counterBitNb = counterBitNb    ( positive   )  
+invertInput  = '0'             ( std_ulogic )  "
 )
 header ""
 )
 elements [
 (GiElement
+name "inputBitNb"
+type "positive"
+value "inputBitNb"
+)
+(GiElement
 name "counterBitNb"
-type "natural"
+type "positive"
 value "counterBitNb"
+)
+(GiElement
+name "invertInput"
+type "std_ulogic"
+value "'0'"
 )
 ]
 )
 viewicon (ZoomableIcon
-uid 6341,0
+uid 6305,0
 sl 0
 va (VaSet
 vasetType 1
@@ -1009,7 +1057,7 @@ ftype 10
 )
 viewiconposition 0
 portVis (PortSigDisplay
-sIVOD 1
+sTC 0
 )
 archFileType "UNKNOWN"
 )
@@ -1091,6 +1139,7 @@ shape (OrthoPolyLine
 uid 6109,0
 va (VaSet
 vasetType 3
+lineWidth 2
 )
 xt "27000,-35000,34250,-19000"
 pts [
@@ -1103,6 +1152,8 @@ start &22
 end &12
 sat 32
 eat 2
+sty 1
+stc 0
 st 0
 sf 1
 tg (WTG
@@ -1113,7 +1164,7 @@ f (Text
 uid 6113,0
 va (VaSet
 )
-xt "31250,-36000,34250,-35000"
+xt "31250,-36000,33250,-35000"
 st "input"
 blo "31250,-35200"
 tm "WireNameMgr"
@@ -1122,11 +1173,12 @@ tm "WireNameMgr"
 on &18
 )
 *31 (Wire
-uid 6308,0
+uid 6116,0
 shape (OrthoPolyLine
-uid 6309,0
+uid 6117,0
 va (VaSet
 vasetType 3
+lineWidth 2
 )
 xt "51750,-35000,55000,-19000"
 pts [
@@ -1139,18 +1191,20 @@ start &24
 end &12
 sat 32
 eat 1
+sty 1
+stc 0
 st 0
 sf 1
 tg (WTG
-uid 6312,0
+uid 6120,0
 ps "ConnStartEndStrategy"
 stg "STSignalDisplayStrategy"
 f (Text
-uid 6313,0
+uid 6121,0
 va (VaSet
 )
-xt "53750,-36000,56350,-35000"
-st "toggle"
+xt "53750,-36000,59150,-35000"
+st "debounced"
 blo "53750,-35200"
 tm "WireNameMgr"
 )
@@ -1268,7 +1322,7 @@ tm "BdCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "100,37,1441,900"
-viewArea "-1100,-50100,76318,-351"
+viewArea "-1094,-50068,78847,1302"
 cachedDiagramExtent "0,-49000,73000,6000"
 pageSetupInfo (PageSetupInfo
 ptrCmd ""
@@ -1287,7 +1341,7 @@ boundaryWidth 0
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "0,-49000"
-lastUid 6403,0
+lastUid 6367,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -2289,8 +2343,9 @@ uid 5,0
 va (VaSet
 font "courier,8,0"
 )
-xt "2000,-41200,21000,-40300"
-st "constant counterBitNb : natural := 4;"
+xt "2000,-41200,21500,-39400"
+st "constant inputBitNb : positive := 3;
+constant counterBitNb : positive := 4;"
 tm "BdDeclarativeTextMgr"
 )
 diagSignalLabel (Text
@@ -2298,9 +2353,9 @@ uid 6,0
 va (VaSet
 font "courier,8,1"
 )
-xt "0,-40300,7100,-39300"
+xt "0,-39400,7100,-38400"
 st "Diagram Signals:"
-blo "0,-39500"
+blo "0,-38600"
 )
 postUserLabel (Text
 uid 7,0
@@ -2324,7 +2379,7 @@ tm "BdDeclarativeTextMgr"
 )
 commonDM (CommonDM
 ldm (LogicalDM
-suid 104,0
+suid 103,0
 usingSuid 1
 emptyRow *63 (LEmptyRow
 )
@@ -2369,7 +2424,7 @@ m 4
 decl (Decl
 n "reset"
 t "std_ulogic"
-o 3
+o 4
 suid 100,0
 )
 )
@@ -2392,8 +2447,9 @@ port (LogicalPort
 m 4
 decl (Decl
 n "input"
-t "std_ulogic"
-o 2
+t "std_ulogic_vector"
+b "(1 TO inputBitNb)"
+o 3
 suid 102,0
 )
 )
@@ -2403,13 +2459,14 @@ uid 6126,0
 port (LogicalPort
 m 4
 decl (Decl
-n "toggle"
-t "std_ulogic"
-o 4
-suid 104,0
+n "debounced"
+t "std_ulogic_vector"
+b "(1 TO inputBitNb)"
+o 2
+suid 103,0
 )
 )
-uid 6314,0
+uid 6128,0
 )
 ]
 )
@@ -2483,7 +2540,7 @@ uid 6127,0
 litem &79
 pos 3
 dimension 20
-uid 6315,0
+uid 6129,0
 )
 ]
 )
