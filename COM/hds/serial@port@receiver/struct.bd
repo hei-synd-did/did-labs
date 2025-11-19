@@ -116,19 +116,19 @@ value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\COM\\hds\\serialPortReceiver"
 )
 (vvPair
 variable "date"
-value "14.01.2025"
+value "19.11.2025"
 )
 (vvPair
 variable "day"
-value "mar."
+value "mer."
 )
 (vvPair
 variable "day_long"
-value "mardi"
+value "mercredi"
 )
 (vvPair
 variable "dd"
-value "14"
+value "19"
 )
 (vvPair
 variable "designName"
@@ -160,7 +160,7 @@ value "Axam"
 )
 (vvPair
 variable "graphical_source_date"
-value "14.01.2025"
+value "19.11.2025"
 )
 (vvPair
 variable "graphical_source_group"
@@ -172,7 +172,7 @@ value "WE10628"
 )
 (vvPair
 variable "graphical_source_time"
-value "10:13:38"
+value "14:08:41"
 )
 (vvPair
 variable "group"
@@ -216,7 +216,7 @@ value "U:\\ELN_Board\\Synthesis"
 )
 (vvPair
 variable "mm"
-value "01"
+value "11"
 )
 (vvPair
 variable "module_name"
@@ -224,11 +224,11 @@ value "serialPortReceiver"
 )
 (vvPair
 variable "month"
-value "janv."
+value "nov."
 )
 (vvPair
 variable "month_long"
-value "janvier"
+value "novembre"
 )
 (vvPair
 variable "p"
@@ -308,7 +308,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "10:13:38"
+value "14:08:41"
 )
 (vvPair
 variable "unit"
@@ -421,7 +421,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "87200,60400,105000,61600"
+xt "87200,60400,102400,61600"
 st "
 by %user on %dd %month %year
 "
@@ -670,7 +670,7 @@ uid 3307,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "26000,45000,37200,46000"
+xt "26000,-3000,37200,-2000"
 st "reset          : std_ulogic"
 )
 )
@@ -687,16 +687,16 @@ optionalChildren [
 uid 7093,0
 sl 0
 ro 270
-xt "52000,37625,53500,38375"
+xt "52000,42625,53500,43375"
 )
 (Line
 uid 7094,0
 sl 0
 ro 270
-xt "53500,38000,54000,38000"
+xt "53500,43000,54000,43000"
 pts [
-"53500,38000"
-"54000,38000"
+"53500,43000"
+"54000,43000"
 ]
 )
 ]
@@ -711,10 +711,10 @@ va (VaSet
 isHidden 1
 font "Verdana,12,0"
 )
-xt "46900,37300,51000,38700"
+xt "46900,42300,51000,43700"
 st "reset"
 ju 2
-blo "51000,38500"
+blo "51000,43500"
 tm "WireNameMgr"
 )
 s (Text
@@ -722,9 +722,9 @@ uid 7097,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "46900,38700,46900,38700"
+xt "46900,43700,46900,43700"
 ju 2
-blo "46900,38700"
+blo "46900,43700"
 tm "SignalTypeMgr"
 )
 )
@@ -742,16 +742,16 @@ optionalChildren [
 uid 16491,0
 sl 0
 ro 270
-xt "110500,9625,112000,10375"
+xt "110500,14625,112000,15375"
 )
 (Line
 uid 16492,0
 sl 0
 ro 270
-xt "110000,10000,110500,10000"
+xt "110000,15000,110500,15000"
 pts [
-"110000,10000"
-"110500,10000"
+"110000,15000"
+"110500,15000"
 ]
 )
 ]
@@ -766,9 +766,9 @@ va (VaSet
 isHidden 1
 font "Verdana,12,0"
 )
-xt "113000,9500,137800,10900"
+xt "113000,14500,137800,15900"
 st "dataOut : (dataBitNb-1 DOWNTO 0)"
-blo "113000,10700"
+blo "113000,15700"
 tm "WireNameMgr"
 )
 s (Text
@@ -776,8 +776,8 @@ uid 16495,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "113000,10900,113000,10900"
-blo "113000,10900"
+xt "113000,15900,113000,15900"
+blo "113000,15900"
 tm "SignalTypeMgr"
 )
 )
@@ -796,7 +796,7 @@ uid 16503,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "26000,46600,51700,47600"
+xt "26000,-1400,51700,-400"
 st "dataOut        : std_ulogic_vector(dataBitNb-1 DOWNTO 0)"
 )
 )
@@ -813,16 +813,16 @@ optionalChildren [
 uid 16855,0
 sl 0
 ro 270
-xt "52000,35625,53500,36375"
+xt "52000,40625,53500,41375"
 )
 (Line
 uid 16856,0
 sl 0
 ro 270
-xt "53500,36000,54000,36000"
+xt "53500,41000,54000,41000"
 pts [
-"53500,36000"
-"54000,36000"
+"53500,41000"
+"54000,41000"
 ]
 )
 ]
@@ -837,10 +837,10 @@ va (VaSet
 isHidden 1
 font "Verdana,12,0"
 )
-xt "47200,35500,51000,36900"
+xt "47200,40500,51000,41900"
 st "clock"
 ju 2
-blo "51000,36700"
+blo "51000,41700"
 tm "WireNameMgr"
 )
 s (Text
@@ -848,9 +848,9 @@ uid 16859,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "47200,36900,47200,36900"
+xt "47200,41900,47200,41900"
 ju 2
-blo "47200,36900"
+blo "47200,41900"
 tm "SignalTypeMgr"
 )
 )
@@ -868,7 +868,7 @@ uid 16867,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "26000,44200,37200,45200"
+xt "26000,-3800,37200,-2800"
 st "clock          : std_ulogic"
 )
 )
@@ -885,7 +885,7 @@ uid 23675,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "26000,45800,37200,46800"
+xt "26000,-2200,37200,-1200"
 st "serialIn       : std_ulogic"
 )
 )
@@ -902,16 +902,16 @@ optionalChildren [
 uid 23678,0
 sl 0
 ro 270
-xt "52000,31625,53500,32375"
+xt "52000,36625,53500,37375"
 )
 (Line
 uid 23679,0
 sl 0
 ro 270
-xt "53500,32000,54000,32000"
+xt "53500,37000,54000,37000"
 pts [
-"53500,32000"
-"54000,32000"
+"53500,37000"
+"54000,37000"
 ]
 )
 ]
@@ -926,10 +926,10 @@ va (VaSet
 isHidden 1
 font "Verdana,12,0"
 )
-xt "45500,31300,51000,32700"
+xt "45500,36300,51000,37700"
 st "serialIn"
 ju 2
-blo "51000,32500"
+blo "51000,37500"
 tm "WireNameMgr"
 )
 s (Text
@@ -937,9 +937,9 @@ uid 23682,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "45500,32700,45500,32700"
+xt "45500,37700,45500,37700"
 ju 2
-blo "45500,32700"
+blo "45500,37700"
 tm "SignalTypeMgr"
 )
 )
@@ -957,7 +957,7 @@ uid 23761,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "26000,51400,41000,52400"
+xt "26000,3400,41000,4400"
 st "SIGNAL restartCounter : std_logic"
 )
 )
@@ -974,7 +974,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "102000,29625,102750,30375"
+xt "107000,34625,107750,35375"
 )
 tg (CPTG
 uid 24071,0
@@ -984,10 +984,10 @@ f (Text
 uid 24072,0
 va (VaSet
 )
-xt "95600,29500,101000,30700"
+xt "100600,34500,106000,35700"
 st "countOut"
 ju 2
-blo "101000,30500"
+blo "106000,35500"
 )
 )
 thePort (LogicalPort
@@ -1011,7 +1011,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "85250,33625,86000,34375"
+xt "90250,38625,91000,39375"
 )
 tg (CPTG
 uid 24075,0
@@ -1021,9 +1021,9 @@ f (Text
 uid 24076,0
 va (VaSet
 )
-xt "87000,33500,90400,34700"
+xt "92000,38500,95400,39700"
 st "clock"
-blo "87000,34500"
+blo "92000,39500"
 )
 )
 thePort (LogicalPort
@@ -1045,7 +1045,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "85250,35625,86000,36375"
+xt "90250,40625,91000,41375"
 )
 tg (CPTG
 uid 24079,0
@@ -1055,9 +1055,9 @@ f (Text
 uid 24080,0
 va (VaSet
 )
-xt "87000,35500,90300,36700"
+xt "92000,40500,95300,41700"
 st "reset"
-blo "87000,36500"
+blo "92000,41500"
 )
 )
 thePort (LogicalPort
@@ -1079,7 +1079,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "85250,29625,86000,30375"
+xt "90250,34625,91000,35375"
 )
 tg (CPTG
 uid 24083,0
@@ -1089,9 +1089,9 @@ f (Text
 uid 24084,0
 va (VaSet
 )
-xt "87000,29500,95800,30700"
+xt "92000,34500,100800,35700"
 st "restartCounter"
-blo "87000,30500"
+blo "92000,35500"
 )
 )
 thePort (LogicalPort
@@ -1112,7 +1112,7 @@ fg "0,65535,0"
 lineColor "0,32896,0"
 lineWidth 2
 )
-xt "86000,26000,102000,38000"
+xt "91000,31000,107000,43000"
 )
 oxt "-33000,11000,-17000,23000"
 ttg (MlTextGroup
@@ -1125,9 +1125,9 @@ uid 24088,0
 va (VaSet
 font "Verdana,8,1"
 )
-xt "86400,38000,89100,39000"
+xt "91400,43000,94100,44000"
 st "COM"
-blo "86400,38800"
+blo "91400,43800"
 tm "BdLibraryNameMgr"
 )
 *27 (Text
@@ -1135,9 +1135,9 @@ uid 24089,0
 va (VaSet
 font "Verdana,8,1"
 )
-xt "86400,39000,95400,40000"
+xt "91400,44000,100400,45000"
 st "baudrateCounter"
-blo "86400,39800"
+blo "91400,44800"
 tm "CptNameMgr"
 )
 *28 (Text
@@ -1145,9 +1145,9 @@ uid 24090,0
 va (VaSet
 font "Verdana,8,1"
 )
-xt "86400,40000,88000,41000"
+xt "91400,45000,93000,46000"
 st "I2"
-blo "86400,40800"
+blo "91400,45800"
 tm "InstanceNameMgr"
 )
 ]
@@ -1162,7 +1162,7 @@ uid 24093,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "86000,41200,113400,42200"
+xt "91000,46200,118400,47200"
 st "baudrateCounterBitNb = baudrateCounterBitNb    ( positive )  "
 )
 header ""
@@ -1196,7 +1196,7 @@ uid 24095,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "26000,50600,57100,51600"
+xt "26000,2600,57100,3600"
 st "SIGNAL baudCount      : unsigned(baudrateCounterBitNb-1 DOWNTO 0)"
 )
 )
@@ -1213,7 +1213,7 @@ uid 24165,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "26000,52200,40500,53200"
+xt "26000,4200,40500,5200"
 st "SIGNAL shiftEn        : std_ulogic"
 )
 )
@@ -1230,7 +1230,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "61250,13625,62000,14375"
+xt "61250,18625,62000,19375"
 )
 tg (CPTG
 uid 24168,0
@@ -1240,9 +1240,9 @@ f (Text
 uid 24169,0
 va (VaSet
 )
-xt "63000,13500,66400,14700"
+xt "63000,18500,66400,19700"
 st "clock"
-blo "63000,14500"
+blo "63000,19500"
 )
 )
 thePort (LogicalPort
@@ -1264,7 +1264,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "78000,9625,78750,10375"
+xt "78000,14625,78750,15375"
 )
 tg (CPTG
 uid 24172,0
@@ -1274,10 +1274,10 @@ f (Text
 uid 24173,0
 va (VaSet
 )
-xt "72200,9500,77000,10700"
+xt "72200,14500,77000,15700"
 st "dataOut"
 ju 2
-blo "77000,10500"
+blo "77000,15500"
 )
 )
 thePort (LogicalPort
@@ -1301,7 +1301,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "61250,15625,62000,16375"
+xt "61250,20625,62000,21375"
 )
 tg (CPTG
 uid 24176,0
@@ -1311,9 +1311,9 @@ f (Text
 uid 24177,0
 va (VaSet
 )
-xt "63000,15500,66300,16700"
+xt "63000,20500,66300,21700"
 st "reset"
-blo "63000,16500"
+blo "63000,21500"
 )
 )
 thePort (LogicalPort
@@ -1335,7 +1335,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "61250,9625,62000,10375"
+xt "61250,14625,62000,15375"
 )
 tg (CPTG
 uid 24180,0
@@ -1345,9 +1345,9 @@ f (Text
 uid 24181,0
 va (VaSet
 )
-xt "63000,9500,67600,10700"
+xt "63000,14500,67600,15700"
 st "serialIn"
-blo "63000,10500"
+blo "63000,15500"
 )
 )
 thePort (LogicalPort
@@ -1368,7 +1368,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "69625,18000,70375,18750"
+xt "69625,23000,70375,23750"
 )
 tg (CPTG
 uid 24184,0
@@ -1378,9 +1378,9 @@ f (Text
 uid 24185,0
 va (VaSet
 )
-xt "69000,16000,73200,17200"
+xt "69000,21000,73200,22200"
 st "shiftEn"
-blo "69000,17000"
+blo "69000,22000"
 )
 )
 thePort (LogicalPort
@@ -1401,7 +1401,7 @@ fg "0,65535,0"
 lineColor "0,32896,0"
 lineWidth 2
 )
-xt "62000,6000,78000,18000"
+xt "62000,11000,78000,23000"
 )
 oxt "-13000,13000,3000,25000"
 ttg (MlTextGroup
@@ -1414,9 +1414,9 @@ uid 24189,0
 va (VaSet
 font "Verdana,8,1"
 )
-xt "62200,18000,64900,19000"
+xt "72200,23000,74900,24000"
 st "COM"
-blo "62200,18800"
+blo "72200,23800"
 tm "BdLibraryNameMgr"
 )
 *38 (Text
@@ -1424,9 +1424,9 @@ uid 24190,0
 va (VaSet
 font "Verdana,8,1"
 )
-xt "62200,19000,69300,20000"
+xt "72200,24000,79300,25000"
 st "shiftRegister"
-blo "62200,19800"
+blo "72200,24800"
 tm "CptNameMgr"
 )
 *39 (Text
@@ -1434,9 +1434,9 @@ uid 24191,0
 va (VaSet
 font "Verdana,8,1"
 )
-xt "62200,20000,63800,21000"
+xt "72200,25000,73800,26000"
 st "I1"
-blo "62200,20800"
+blo "72200,25800"
 tm "InstanceNameMgr"
 )
 ]
@@ -1451,7 +1451,7 @@ uid 24194,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "62000,21200,78900,22200"
+xt "72000,26000,88900,27000"
 st "dataBitNb = dataBitNb    ( positive )  "
 )
 header ""
@@ -1484,7 +1484,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "61250,29625,62000,30375"
+xt "61250,34625,62000,35375"
 )
 tg (CPTG
 uid 24197,0
@@ -1494,9 +1494,9 @@ f (Text
 uid 24198,0
 va (VaSet
 )
-xt "63000,29500,69100,30700"
+xt "63000,34500,69100,35700"
 st "baudCount"
-blo "63000,30500"
+blo "63000,35500"
 )
 )
 thePort (LogicalPort
@@ -1519,7 +1519,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "61250,35625,62000,36375"
+xt "61250,40625,62000,41375"
 )
 tg (CPTG
 uid 24201,0
@@ -1529,9 +1529,9 @@ f (Text
 uid 24202,0
 va (VaSet
 )
-xt "63000,35500,66400,36700"
+xt "63000,40500,66400,41700"
 st "clock"
-blo "63000,36500"
+blo "63000,41500"
 )
 )
 thePort (LogicalPort
@@ -1553,7 +1553,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "61250,37625,62000,38375"
+xt "61250,42625,62000,43375"
 )
 tg (CPTG
 uid 24205,0
@@ -1563,9 +1563,9 @@ f (Text
 uid 24206,0
 va (VaSet
 )
-xt "63000,37500,66300,38700"
+xt "63000,42500,66300,43700"
 st "reset"
-blo "63000,38500"
+blo "63000,43500"
 )
 )
 thePort (LogicalPort
@@ -1587,7 +1587,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "78000,29625,78750,30375"
+xt "78000,34625,78750,35375"
 )
 tg (CPTG
 uid 24209,0
@@ -1597,10 +1597,10 @@ f (Text
 uid 24210,0
 va (VaSet
 )
-xt "68200,29500,77000,30700"
+xt "68200,34500,77000,35700"
 st "restartCounter"
 ju 2
-blo "77000,30500"
+blo "77000,35500"
 )
 )
 thePort (LogicalPort
@@ -1623,7 +1623,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "61250,31625,62000,32375"
+xt "61250,36625,62000,37375"
 )
 tg (CPTG
 uid 24213,0
@@ -1633,9 +1633,9 @@ f (Text
 uid 24214,0
 va (VaSet
 )
-xt "63000,31500,67600,32700"
+xt "63000,36500,67600,37700"
 st "serialIn"
-blo "63000,32500"
+blo "63000,37500"
 )
 )
 thePort (LogicalPort
@@ -1656,7 +1656,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "69625,25250,70375,26000"
+xt "69625,30250,70375,31000"
 )
 tg (CPTG
 uid 24217,0
@@ -1666,9 +1666,9 @@ f (Text
 uid 24218,0
 va (VaSet
 )
-xt "69000,27000,73200,28200"
+xt "69000,32000,73200,33200"
 st "shiftEn"
-blo "69000,28000"
+blo "69000,33000"
 )
 )
 thePort (LogicalPort
@@ -1690,7 +1690,7 @@ fg "0,65535,0"
 lineColor "0,32896,0"
 lineWidth 2
 )
-xt "62000,26000,78000,40000"
+xt "62000,31000,78000,45000"
 )
 oxt "37000,13000,53000,27000"
 ttg (MlTextGroup
@@ -1703,9 +1703,9 @@ uid 24222,0
 va (VaSet
 font "Verdana,8,1"
 )
-xt "62250,40000,64950,41000"
+xt "62250,45000,64950,46000"
 st "COM"
-blo "62250,40800"
+blo "62250,45800"
 tm "BdLibraryNameMgr"
 )
 *48 (Text
@@ -1713,9 +1713,9 @@ uid 24223,0
 va (VaSet
 font "Verdana,8,1"
 )
-xt "62250,41000,71750,42000"
+xt "62250,46000,71750,47000"
 st "receiverController"
-blo "62250,41800"
+blo "62250,46800"
 tm "CptNameMgr"
 )
 *49 (Text
@@ -1723,9 +1723,9 @@ uid 24224,0
 va (VaSet
 font "Verdana,8,1"
 )
-xt "62250,42000,63850,43000"
+xt "62250,47000,63850,48000"
 st "I0"
-blo "62250,42800"
+blo "62250,47800"
 tm "InstanceNameMgr"
 )
 ]
@@ -1740,7 +1740,7 @@ uid 24227,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "62000,43200,89400,44200"
+xt "62000,48200,89400,49200"
 st "baudrateCounterBitNb = baudrateCounterBitNb    ( positive )  "
 )
 header ""
@@ -1766,10 +1766,10 @@ uid 6764,0
 va (VaSet
 vasetType 3
 )
-xt "54000,38000,61250,38000"
+xt "54000,43000,61250,43000"
 pts [
-"54000,38000"
-"61250,38000"
+"54000,43000"
+"61250,43000"
 ]
 )
 start &13
@@ -1788,9 +1788,9 @@ uid 6768,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "54000,36600,58100,38000"
+xt "54000,41600,58100,43000"
 st "reset"
-blo "54000,37800"
+blo "54000,42800"
 tm "WireNameMgr"
 )
 )
@@ -1804,10 +1804,10 @@ va (VaSet
 vasetType 3
 lineWidth 2
 )
-xt "78750,10000,110000,10000"
+xt "78750,15000,110000,15000"
 pts [
-"78750,10000"
-"110000,10000"
+"78750,15000"
+"110000,15000"
 ]
 )
 start &33
@@ -1828,9 +1828,9 @@ uid 16501,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "104000,8600,110000,10000"
+xt "104000,13600,110000,15000"
 st "dataOut"
-blo "104000,9800"
+blo "104000,14800"
 tm "WireNameMgr"
 )
 )
@@ -1843,10 +1843,10 @@ uid 16861,0
 va (VaSet
 vasetType 3
 )
-xt "54000,36000,61250,36000"
+xt "54000,41000,61250,41000"
 pts [
-"54000,36000"
-"61250,36000"
+"54000,41000"
+"61250,41000"
 ]
 )
 start &16
@@ -1866,9 +1866,9 @@ uid 16865,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "54000,34600,57800,36000"
+xt "54000,39600,57800,41000"
 st "clock"
-blo "54000,35800"
+blo "54000,40800"
 tm "WireNameMgr"
 )
 )
@@ -1881,10 +1881,10 @@ uid 23667,0
 va (VaSet
 vasetType 3
 )
-xt "54000,32000,61250,32000"
+xt "54000,37000,61250,37000"
 pts [
-"54000,32000"
-"61250,32000"
+"54000,37000"
+"61250,37000"
 ]
 )
 start &19
@@ -1903,9 +1903,9 @@ uid 23673,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "54000,30600,59500,32000"
+xt "54000,35600,59500,37000"
 st "serialIn"
-blo "54000,31800"
+blo "54000,36800"
 tm "WireNameMgr"
 )
 )
@@ -1918,10 +1918,10 @@ uid 23704,0
 va (VaSet
 vasetType 3
 )
-xt "58000,16000,61250,16000"
+xt "56000,21000,61250,21000"
 pts [
-"58000,16000"
-"61250,16000"
+"56000,21000"
+"61250,21000"
 ]
 )
 end &34
@@ -1939,9 +1939,9 @@ uid 23710,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "57000,14600,61100,16000"
+xt "57000,19600,61100,21000"
 st "reset"
-blo "57000,15800"
+blo "57000,20800"
 tm "WireNameMgr"
 )
 )
@@ -1954,10 +1954,10 @@ uid 23712,0
 va (VaSet
 vasetType 3
 )
-xt "58000,14000,61250,14000"
+xt "56000,19000,61250,19000"
 pts [
-"58000,14000"
-"61250,14000"
+"56000,19000"
+"61250,19000"
 ]
 )
 end &32
@@ -1976,9 +1976,9 @@ uid 23718,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "58000,12600,61800,14000"
+xt "57000,17600,60800,19000"
 st "clock"
-blo "58000,13800"
+blo "57000,18800"
 tm "WireNameMgr"
 )
 )
@@ -1991,10 +1991,10 @@ uid 23720,0
 va (VaSet
 vasetType 3
 )
-xt "54000,10000,61250,10000"
+xt "54000,15000,61250,15000"
 pts [
-"54000,10000"
-"61250,10000"
+"54000,15000"
+"61250,15000"
 ]
 )
 end &35
@@ -2012,9 +2012,9 @@ uid 23726,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "54000,8600,59500,10000"
+xt "55000,13600,60500,15000"
 st "serialIn"
-blo "54000,9800"
+blo "55000,14800"
 tm "WireNameMgr"
 )
 )
@@ -2027,10 +2027,10 @@ uid 23730,0
 va (VaSet
 vasetType 3
 )
-xt "70000,18750,70000,25250"
+xt "70000,23750,70000,30250"
 pts [
-"70000,25250"
-"70000,18750"
+"70000,30250"
+"70000,23750"
 ]
 )
 start &46
@@ -2051,9 +2051,9 @@ uid 23736,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "71000,23600,76100,25000"
+xt "71000,28600,76100,30000"
 st "shiftEn"
-blo "71000,24800"
+blo "71000,29800"
 tm "WireNameMgr"
 )
 )
@@ -2066,10 +2066,10 @@ uid 23753,0
 va (VaSet
 vasetType 3
 )
-xt "78750,30000,85250,30000"
+xt "78750,35000,90250,35000"
 pts [
-"78750,30000"
-"85250,30000"
+"78750,35000"
+"90250,35000"
 ]
 )
 start &44
@@ -2089,9 +2089,9 @@ uid 23759,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "78000,28600,89000,30000"
+xt "80000,33600,91000,35000"
 st "restartCounter"
-blo "78000,29800"
+blo "80000,34800"
 tm "WireNameMgr"
 )
 )
@@ -2104,10 +2104,10 @@ uid 23763,0
 va (VaSet
 vasetType 3
 )
-xt "82000,34000,85250,34000"
+xt "85000,39000,90250,39000"
 pts [
-"82000,34000"
-"85250,34000"
+"85000,39000"
+"90250,39000"
 ]
 )
 end &23
@@ -2126,9 +2126,9 @@ uid 23769,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "82000,32600,85800,34000"
+xt "86000,37600,89800,39000"
 st "clock"
-blo "82000,33800"
+blo "86000,38800"
 tm "WireNameMgr"
 )
 )
@@ -2141,10 +2141,10 @@ uid 23771,0
 va (VaSet
 vasetType 3
 )
-xt "82000,36000,85250,36000"
+xt "85000,41000,90250,41000"
 pts [
-"82000,36000"
-"85250,36000"
+"85000,41000"
+"90250,41000"
 ]
 )
 end &24
@@ -2162,9 +2162,9 @@ uid 23777,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "81000,34600,85100,36000"
+xt "86000,39600,90100,41000"
 st "reset"
-blo "81000,35800"
+blo "86000,40800"
 tm "WireNameMgr"
 )
 )
@@ -2178,14 +2178,14 @@ va (VaSet
 vasetType 3
 lineWidth 2
 )
-xt "58000,22000,106000,30000"
+xt "49000,35000,118000,52000"
 pts [
-"102750,30000"
-"106000,30000"
-"106000,22000"
-"58000,22000"
-"58000,30000"
-"61250,30000"
+"107750,35000"
+"118000,35000"
+"118000,52000"
+"49000,52000"
+"49000,35000"
+"61250,35000"
 ]
 )
 start &22
@@ -2207,9 +2207,9 @@ uid 23787,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "104000,28600,111800,30000"
+xt "109000,33600,116800,35000"
 st "baudCount"
-blo "104000,29800"
+blo "109000,34800"
 tm "WireNameMgr"
 )
 )
@@ -2326,7 +2326,7 @@ tm "BdCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "-1928,-259,8,789"
-viewArea "22411,-13592,166357,63943"
+viewArea "22400,-13600,167580,64600"
 cachedDiagramExtent "20000,-12000,137800,62000"
 pageSetupInfo (PageSetupInfo
 ptrCmd "\\\\SUN\\PREA309_HPLJ3005DN.PRINTERS.SYSTEM.SION.HEVs,winspool,"
@@ -2353,7 +2353,7 @@ boundaryWidth 0
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "24000,-12000"
-lastUid 24495,0
+lastUid 24528,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -3302,33 +3302,33 @@ uid 2,0
 va (VaSet
 font "Verdana,8,1"
 )
-xt "24000,42200,31000,43200"
+xt "24000,-5800,31000,-4800"
 st "Declarations"
-blo "24000,43000"
+blo "24000,-5000"
 )
 portLabel (Text
 uid 3,0
 va (VaSet
 font "Verdana,8,1"
 )
-xt "24000,43200,27400,44200"
+xt "24000,-4800,27400,-3800"
 st "Ports:"
-blo "24000,44000"
+blo "24000,-4000"
 )
 preUserLabel (Text
 uid 4,0
 va (VaSet
 font "Verdana,8,1"
 )
-xt "24000,47400,28800,48400"
+xt "24000,-600,28800,400"
 st "Pre User:"
-blo "24000,48200"
+blo "24000,200"
 )
 preUserText (MLText
 uid 5,0
 va (VaSet
 )
-xt "26000,48400,61300,49600"
+xt "26000,400,61300,1600"
 st "constant baudrateCounterBitNb: positive := baudDivideBitNb+4;"
 tm "BdDeclarativeTextMgr"
 )
@@ -3337,24 +3337,24 @@ uid 6,0
 va (VaSet
 font "Verdana,8,1"
 )
-xt "24000,49600,33000,50600"
+xt "24000,1600,33000,2600"
 st "Diagram Signals:"
-blo "24000,50400"
+blo "24000,2400"
 )
 postUserLabel (Text
 uid 7,0
 va (VaSet
 font "Verdana,8,1"
 )
-xt "24000,53000,30000,54000"
+xt "24000,5000,30000,6000"
 st "Post User:"
-blo "24000,53800"
+blo "24000,5800"
 )
 postUserText (MLText
 uid 8,0
 va (VaSet
 )
-xt "24000,42200,24000,42200"
+xt "24000,-5800,24000,-5800"
 tm "BdDeclarativeTextMgr"
 )
 )

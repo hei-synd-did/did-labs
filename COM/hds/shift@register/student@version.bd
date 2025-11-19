@@ -24,23 +24,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "C:\\dev\\did-labs\\Prefs\\..\\COM\\hdl"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\COM\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\dev\\did-labs\\Prefs\\..\\COM\\hds"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\COM\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\dev\\did-labs\\Prefs\\..\\COM\\hds\\shift@register\\student@version.bd.info"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\COM\\hds\\shift@register\\student@version.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\dev\\did-labs\\Prefs\\..\\COM\\hds\\shift@register\\student@version.bd.user"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\COM\\hds\\shift@register\\student@version.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\dev\\did-labs\\Prefs\\..\\COM\\hds"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\COM\\hds"
 )
 (vvPair
 variable "appl"
@@ -60,27 +60,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\dev\\did-labs\\Prefs\\..\\COM\\hds\\shift@register"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\COM\\hds\\shift@register"
 )
 (vvPair
 variable "d_logical"
-value "C:\\dev\\did-labs\\Prefs\\..\\COM\\hds\\shiftRegister"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\COM\\hds\\shiftRegister"
 )
 (vvPair
 variable "date"
-value "24.04.2023"
+value "19.11.2025"
 )
 (vvPair
 variable "day"
-value "lun."
+value "mer."
 )
 (vvPair
 variable "day_long"
-value "lundi"
+value "mercredi"
 )
 (vvPair
 variable "dd"
-value "24"
+value "19"
 )
 (vvPair
 variable "entity_name"
@@ -104,11 +104,11 @@ value "student@version"
 )
 (vvPair
 variable "graphical_source_author"
-value "axel.amand"
+value "Axam"
 )
 (vvPair
 variable "graphical_source_date"
-value "24.04.2023"
+value "19.11.2025"
 )
 (vvPair
 variable "graphical_source_group"
@@ -116,11 +116,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "WE7860"
+value "WE10628"
 )
 (vvPair
 variable "graphical_source_time"
-value "08:32:30"
+value "14:08:33"
 )
 (vvPair
 variable "group"
@@ -128,7 +128,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WE7860"
+value "WE10628"
 )
 (vvPair
 variable "language"
@@ -144,7 +144,7 @@ value "$SCRATCH_DIR/ElN/COM/work"
 )
 (vvPair
 variable "mm"
-value "04"
+value "11"
 )
 (vvPair
 variable "module_name"
@@ -152,19 +152,19 @@ value "shiftRegister"
 )
 (vvPair
 variable "month"
-value "avr."
+value "nov."
 )
 (vvPair
 variable "month_long"
-value "avril"
+value "novembre"
 )
 (vvPair
 variable "p"
-value "C:\\dev\\did-labs\\Prefs\\..\\COM\\hds\\shift@register\\student@version.bd"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\COM\\hds\\shift@register\\student@version.bd"
 )
 (vvPair
 variable "p_logical"
-value "C:\\dev\\did-labs\\Prefs\\..\\COM\\hds\\shiftRegister\\studentVersion.bd"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\COM\\hds\\shiftRegister\\studentVersion.bd"
 )
 (vvPair
 variable "package_name"
@@ -224,7 +224,7 @@ value "studentVersion"
 )
 (vvPair
 variable "time"
-value "08:32:30"
+value "14:08:33"
 )
 (vvPair
 variable "unit"
@@ -232,7 +232,7 @@ value "shiftRegister"
 )
 (vvPair
 variable "user"
-value "axel.amand"
+value "Axam"
 )
 (vvPair
 variable "version"
@@ -244,11 +244,11 @@ value "studentVersion"
 )
 (vvPair
 variable "year"
-value "2023"
+value "2025"
 )
 (vvPair
 variable "yy"
-value "23"
+value "25"
 )
 ]
 )
@@ -1083,9 +1083,9 @@ f (Text
 uid 34,0
 va (VaSet
 )
-xt "120000,10000,123000,11000"
+xt "117000,9000,120000,10000"
 st "dataOut"
-blo "120000,10800"
+blo "117000,9800"
 tm "WireNameMgr"
 )
 )
@@ -1244,10 +1244,10 @@ uid 253,0
 va (VaSet
 vasetType 3
 )
-xt "46000,11000,46000,21000"
+xt "46000,11000,46000,20000"
 pts [
 "46000,11000"
-"46000,21000"
+"46000,20000"
 ]
 )
 start &25
@@ -1267,9 +1267,9 @@ uid 257,0
 ro 270
 va (VaSet
 )
-xt "45000,16000,46000,20400"
+xt "45000,15000,46000,19400"
 st "dataOut(6)"
-blo "45800,20400"
+blo "45800,19400"
 tm "WireNameMgr"
 )
 )
@@ -1282,10 +1282,10 @@ uid 261,0
 va (VaSet
 vasetType 3
 )
-xt "61000,11000,61000,21000"
+xt "61000,11000,61000,20000"
 pts [
 "61000,11000"
-"61000,21000"
+"61000,20000"
 ]
 )
 start &26
@@ -1305,9 +1305,9 @@ uid 265,0
 ro 270
 va (VaSet
 )
-xt "60000,16000,61000,20400"
+xt "60000,15000,61000,19400"
 st "dataOut(5)"
-blo "60800,20400"
+blo "60800,19400"
 tm "WireNameMgr"
 )
 )
@@ -1320,10 +1320,10 @@ uid 269,0
 va (VaSet
 vasetType 3
 )
-xt "72000,11000,72000,22000"
+xt "72000,11000,72000,20000"
 pts [
 "72000,11000"
-"72000,22000"
+"72000,20000"
 ]
 )
 start &27
@@ -1343,9 +1343,9 @@ uid 273,0
 ro 270
 va (VaSet
 )
-xt "71000,17000,72000,21400"
+xt "71000,15000,72000,19400"
 st "dataOut(4)"
-blo "71800,21400"
+blo "71800,19400"
 tm "WireNameMgr"
 )
 )
@@ -1396,10 +1396,10 @@ uid 285,0
 va (VaSet
 vasetType 3
 )
-xt "96000,11000,96000,21000"
+xt "96000,11000,96000,20000"
 pts [
 "96000,11000"
-"96000,21000"
+"96000,20000"
 ]
 )
 start &29
@@ -1419,9 +1419,9 @@ uid 291,0
 ro 270
 va (VaSet
 )
-xt "95000,16000,96000,20400"
+xt "95000,15000,96000,19400"
 st "dataOut(2)"
-blo "95800,20400"
+blo "95800,19400"
 tm "WireNameMgr"
 )
 )
@@ -1434,10 +1434,10 @@ uid 293,0
 va (VaSet
 vasetType 3
 )
-xt "108000,11000,108000,21000"
+xt "108000,11000,108000,20000"
 pts [
 "108000,11000"
-"108000,21000"
+"108000,20000"
 ]
 )
 start &30
@@ -1457,9 +1457,9 @@ uid 299,0
 ro 270
 va (VaSet
 )
-xt "107000,16000,108000,20400"
+xt "107000,15000,108000,19400"
 st "dataOut(1)"
-blo "107800,20400"
+blo "107800,19400"
 tm "WireNameMgr"
 )
 )
@@ -1472,10 +1472,10 @@ uid 301,0
 va (VaSet
 vasetType 3
 )
-xt "121000,11000,121000,21000"
+xt "121000,11000,121000,20000"
 pts [
 "121000,11000"
-"121000,21000"
+"121000,20000"
 ]
 )
 start &31
@@ -1495,9 +1495,9 @@ uid 307,0
 ro 270
 va (VaSet
 )
-xt "120000,16000,121000,20400"
+xt "120000,15000,121000,19400"
 st "dataOut(0)"
-blo "120800,20400"
+blo "120800,19400"
 tm "WireNameMgr"
 )
 )
@@ -1613,8 +1613,8 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "-8,-8,1928,1048"
-viewArea "-8146,-2144,182547,101465"
+windowSize "-1920,-251,1,797"
+viewArea "-8200,-2200,184186,102345"
 cachedDiagramExtent "-6000,0,141000,99000"
 pageSetupInfo (PageSetupInfo
 ptrCmd ""
@@ -1638,7 +1638,7 @@ exportStdPackageRefs 1
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "-6000,0"
-lastUid 462,0
+lastUid 560,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0

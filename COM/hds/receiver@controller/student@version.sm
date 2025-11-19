@@ -34,23 +34,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "C:\\dev\\did-labs\\Prefs\\..\\COM\\hdl"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\COM\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\dev\\did-labs\\Prefs\\..\\COM\\hds"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\COM\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\dev\\did-labs\\Prefs\\..\\COM\\hds\\receiver@controller\\student@version.sm.info"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\COM\\hds\\receiver@controller\\student@version.sm.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\dev\\did-labs\\Prefs\\..\\COM\\hds\\receiver@controller\\student@version.sm.user"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\COM\\hds\\receiver@controller\\student@version.sm.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\dev\\did-labs\\Prefs\\..\\COM\\hds"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\COM\\hds"
 )
 (vvPair
 variable "appl"
@@ -70,27 +70,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\dev\\did-labs\\Prefs\\..\\COM\\hds\\receiver@controller"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\COM\\hds\\receiver@controller"
 )
 (vvPair
 variable "d_logical"
-value "C:\\dev\\did-labs\\Prefs\\..\\COM\\hds\\receiverController"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\COM\\hds\\receiverController"
 )
 (vvPair
 variable "date"
-value "24.04.2023"
+value "19.11.2025"
 )
 (vvPair
 variable "day"
-value "lun."
+value "mer."
 )
 (vvPair
 variable "day_long"
-value "lundi"
+value "mercredi"
 )
 (vvPair
 variable "dd"
-value "24"
+value "19"
 )
 (vvPair
 variable "entity_name"
@@ -114,11 +114,11 @@ value "student@version"
 )
 (vvPair
 variable "graphical_source_author"
-value "axel.amand"
+value "Axam"
 )
 (vvPair
 variable "graphical_source_date"
-value "24.04.2023"
+value "19.11.2025"
 )
 (vvPair
 variable "graphical_source_group"
@@ -126,11 +126,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "WE7860"
+value "WE10628"
 )
 (vvPair
 variable "graphical_source_time"
-value "08:32:13"
+value "14:08:22"
 )
 (vvPair
 variable "group"
@@ -138,7 +138,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WE7860"
+value "WE10628"
 )
 (vvPair
 variable "language"
@@ -154,7 +154,7 @@ value "$SCRATCH_DIR/ElN/COM/work"
 )
 (vvPair
 variable "mm"
-value "04"
+value "11"
 )
 (vvPair
 variable "module_name"
@@ -162,19 +162,19 @@ value "receiverController"
 )
 (vvPair
 variable "month"
-value "avr."
+value "nov."
 )
 (vvPair
 variable "month_long"
-value "avril"
+value "novembre"
 )
 (vvPair
 variable "p"
-value "C:\\dev\\did-labs\\Prefs\\..\\COM\\hds\\receiver@controller\\student@version.sm"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\COM\\hds\\receiver@controller\\student@version.sm"
 )
 (vvPair
 variable "p_logical"
-value "C:\\dev\\did-labs\\Prefs\\..\\COM\\hds\\receiverController\\studentVersion.sm"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\COM\\hds\\receiverController\\studentVersion.sm"
 )
 (vvPair
 variable "package_name"
@@ -234,7 +234,7 @@ value "studentVersion"
 )
 (vvPair
 variable "time"
-value "08:32:13"
+value "14:08:22"
 )
 (vvPair
 variable "unit"
@@ -242,7 +242,7 @@ value "receiverController"
 )
 (vvPair
 variable "user"
-value "axel.amand"
+value "Axam"
 )
 (vvPair
 variable "version"
@@ -254,11 +254,11 @@ value "studentVersion"
 )
 (vvPair
 variable "year"
-value "2023"
+value "2025"
 )
 (vvPair
 variable "yy"
-value "23"
+value "25"
 )
 ]
 )
@@ -1653,8 +1653,8 @@ tm "SmCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "-8,-8,1928,1048"
-viewArea "-2123,-3185,186748,99434"
+windowSize "-1928,-259,8,789"
+viewArea "-2144,-3215,188549,99500"
 cachedDiagramExtent "0,-1000,146000,97000"
 pageSetupInfo (PageSetupInfo
 ptrCmd ""
@@ -2052,7 +2052,7 @@ stateOrder [
 name "csm"
 )
 ]
-lastUid 1028,0
+lastUid 1057,0
 commonDM (CommonDM
 ldm (LogicalDM
 emptyRow *55 (LEmptyRow

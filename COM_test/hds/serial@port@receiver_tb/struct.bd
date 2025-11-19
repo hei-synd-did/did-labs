@@ -213,19 +213,19 @@ value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\COM_test\\hds\\serialPortReceiver_tb"
 )
 (vvPair
 variable "date"
-value "14.01.2025"
+value "19.11.2025"
 )
 (vvPair
 variable "day"
-value "mar."
+value "mer."
 )
 (vvPair
 variable "day_long"
-value "mardi"
+value "mercredi"
 )
 (vvPair
 variable "dd"
-value "14"
+value "19"
 )
 (vvPair
 variable "designName"
@@ -257,7 +257,7 @@ value "Axam"
 )
 (vvPair
 variable "graphical_source_date"
-value "14.01.2025"
+value "19.11.2025"
 )
 (vvPair
 variable "graphical_source_group"
@@ -269,7 +269,7 @@ value "WE10628"
 )
 (vvPair
 variable "graphical_source_time"
-value "10:13:18"
+value "13:57:48"
 )
 (vvPair
 variable "group"
@@ -301,7 +301,7 @@ value "$SCRATCH_DIR/ElN/COM_test/work"
 )
 (vvPair
 variable "mm"
-value "01"
+value "11"
 )
 (vvPair
 variable "module_name"
@@ -309,11 +309,11 @@ value "serialPortReceiver_tb"
 )
 (vvPair
 variable "month"
-value "janv."
+value "nov."
 )
 (vvPair
 variable "month_long"
-value "janvier"
+value "novembre"
 )
 (vvPair
 variable "p"
@@ -397,7 +397,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "10:13:18"
+value "13:57:48"
 )
 (vvPair
 variable "unit"
@@ -510,7 +510,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "156200,81400,171700,82600"
+xt "156200,81400,171400,82600"
 st "
 by %user on %dd %month %year
 "
@@ -757,7 +757,7 @@ uid 2576,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "57000,12000,70500,13000"
+xt "57000,13600,70500,14600"
 st "SIGNAL reset       : std_ulogic"
 )
 )
@@ -774,7 +774,7 @@ uid 2586,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "57000,6400,70500,7400"
+xt "57000,6600,70500,7600"
 st "SIGNAL clock       : std_ulogic"
 )
 )
@@ -810,7 +810,7 @@ uid 2822,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "57000,10400,86000,11400"
+xt "57000,11600,86000,12600"
 st "SIGNAL portOut     : std_ulogic_vector(registerBitNb-1 DOWNTO 0)"
 )
 )
@@ -828,7 +828,7 @@ uid 2826,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "57000,9600,85700,10600"
+xt "57000,10600,85700,11600"
 st "SIGNAL portIn      : std_ulogic_vector(registerBitNb-1 DOWNTO 0)"
 )
 )
@@ -845,7 +845,7 @@ uid 2828,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "57000,12800,71000,13800"
+xt "57000,14600,71000,15600"
 st "SIGNAL serialOut   : std_uLogic"
 )
 )
@@ -862,7 +862,7 @@ uid 2832,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "57000,13600,71500,14600"
+xt "57000,15600,71500,16600"
 st "SIGNAL writeStrobe : std_uLogic"
 )
 )
@@ -1245,7 +1245,7 @@ uid 4569,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "57000,11200,87600,12200"
+xt "57000,12600,87600,13600"
 st "SIGNAL progCounter : unsigned( programCounterBitNb-1 DOWNTO 0 )"
 )
 )
@@ -1263,7 +1263,7 @@ uid 4575,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "57000,8000,87000,9000"
+xt "57000,8600,87000,9600"
 st "SIGNAL instruction : std_ulogic_vector(instructionBitNb-1 DOWNTO 0)"
 )
 )
@@ -1416,7 +1416,7 @@ uid 4618,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "57000,8800,70900,9800"
+xt "57000,9600,70900,10600"
 st "SIGNAL logic_1     : std_uLogic"
 )
 )
@@ -1880,7 +1880,7 @@ uid 4982,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "57000,7200,86200,8200"
+xt "57000,7600,86200,8600"
 st "SIGNAL dataOut     : std_ulogic_vector(registerBitNb-1 DOWNTO 0)"
 )
 )
@@ -2782,59 +2782,6 @@ tm "WireNameMgr"
 on &16
 )
 *83 (Wire
-uid 2791,0
-optionalChildren [
-*84 (BdJunction
-uid 4993,0
-ps "OnConnectorStrategy"
-shape (Circle
-uid 4994,0
-va (VaSet
-vasetType 1
-)
-xt "162600,50600,163400,51400"
-radius 400
-)
-)
-]
-shape (OrthoPolyLine
-uid 2792,0
-va (VaSet
-vasetType 3
-)
-xt "163000,51000,163000,66000"
-pts [
-"163000,66000"
-"163000,51000"
-]
-)
-start &29
-end &25
-es 0
-sat 1
-eat 32
-stc 0
-st 0
-sf 1
-si 0
-tg (WTG
-uid 2797,0
-ps "ConnStartEndStrategy"
-stg "STSignalDisplayStrategy"
-f (Text
-uid 2798,0
-va (VaSet
-font "Verdana,12,0"
-)
-xt "165000,49600,171500,51000"
-st "serialOut"
-blo "165000,50800"
-tm "WireNameMgr"
-)
-)
-on &17
-)
-*85 (Wire
 uid 2809,0
 shape (OrthoPolyLine
 uid 2810,0
@@ -2874,7 +2821,7 @@ tm "WireNameMgr"
 )
 on &18
 )
-*86 (Wire
+*84 (Wire
 uid 3039,0
 shape (OrthoPolyLine
 uid 3040,0
@@ -2911,7 +2858,7 @@ tm "WireNameMgr"
 )
 on &13
 )
-*87 (Wire
+*85 (Wire
 uid 3049,0
 shape (OrthoPolyLine
 uid 3050,0
@@ -2948,7 +2895,7 @@ tm "WireNameMgr"
 )
 on &12
 )
-*88 (Wire
+*86 (Wire
 uid 3131,0
 shape (OrthoPolyLine
 uid 3132,0
@@ -2987,18 +2934,18 @@ tm "WireNameMgr"
 )
 on &14
 )
-*89 (Wire
+*87 (Wire
 uid 4425,0
 shape (OrthoPolyLine
 uid 4426,0
 va (VaSet
 vasetType 3
 )
-xt "87000,35000,88250,66000"
+xt "83000,35000,88250,66000"
 pts [
 "88250,35000"
-"87000,35000"
-"87000,66000"
+"83000,35000"
+"83000,66000"
 ]
 )
 start &43
@@ -3025,18 +2972,18 @@ tm "WireNameMgr"
 )
 on &12
 )
-*90 (Wire
+*88 (Wire
 uid 4433,0
 shape (OrthoPolyLine
 uid 4434,0
 va (VaSet
 vasetType 3
 )
-xt "85000,33000,88250,66000"
+xt "81000,33000,88250,66000"
 pts [
 "88250,33000"
-"85000,33000"
-"85000,66000"
+"81000,33000"
+"81000,66000"
 ]
 )
 start &42
@@ -3063,7 +3010,7 @@ tm "WireNameMgr"
 )
 on &13
 )
-*91 (Wire
+*89 (Wire
 uid 4570,0
 shape (OrthoPolyLine
 uid 4571,0
@@ -3104,7 +3051,7 @@ tm "WireNameMgr"
 )
 on &33
 )
-*92 (Wire
+*90 (Wire
 uid 4576,0
 shape (OrthoPolyLine
 uid 4577,0
@@ -3145,7 +3092,7 @@ tm "WireNameMgr"
 )
 on &34
 )
-*93 (Wire
+*91 (Wire
 uid 4619,0
 shape (OrthoPolyLine
 uid 4620,0
@@ -3196,7 +3143,7 @@ tm "SignalTypeMgr"
 )
 on &40
 )
-*94 (Wire
+*92 (Wire
 uid 4983,0
 shape (OrthoPolyLine
 uid 4984,0
@@ -3236,8 +3183,22 @@ tm "WireNameMgr"
 )
 on &54
 )
-*95 (Wire
+*93 (Wire
 uid 4989,0
+optionalChildren [
+*94 (BdJunction
+uid 5706,0
+ps "OnConnectorStrategy"
+shape (Circle
+uid 5707,0
+va (VaSet
+vasetType 1
+)
+xt "163600,50600,164400,51400"
+radius 400
+)
+)
+]
 shape (OrthoPolyLine
 uid 4990,0
 va (VaSet
@@ -3249,8 +3210,9 @@ pts [
 "171250,51000"
 ]
 )
-start &84
+start &25
 end &66
+ss 0
 sat 32
 eat 32
 stc 0
@@ -3264,18 +3226,17 @@ stg "STSignalDisplayStrategy"
 f (Text
 uid 4992,0
 va (VaSet
-isHidden 1
 font "Verdana,12,0"
 )
-xt "162250,49600,168750,51000"
+xt "165000,49600,171500,51000"
 st "serialOut"
-blo "162250,50800"
+blo "165000,50800"
 tm "WireNameMgr"
 )
 )
 on &17
 )
-*96 (Wire
+*95 (Wire
 uid 4995,0
 shape (OrthoPolyLine
 uid 4996,0
@@ -3311,7 +3272,7 @@ tm "WireNameMgr"
 )
 on &12
 )
-*97 (Wire
+*96 (Wire
 uid 5003,0
 shape (OrthoPolyLine
 uid 5004,0
@@ -3346,6 +3307,45 @@ tm "WireNameMgr"
 )
 )
 on &13
+)
+*97 (Wire
+uid 5700,0
+shape (OrthoPolyLine
+uid 5701,0
+va (VaSet
+vasetType 3
+)
+xt "164000,51000,164000,66000"
+pts [
+"164000,51000"
+"164000,66000"
+]
+)
+start &94
+end &29
+sat 32
+eat 1
+stc 0
+st 0
+sf 1
+si 0
+tg (WTG
+uid 5704,0
+ps "ConnStartEndStrategy"
+stg "STSignalDisplayStrategy"
+f (Text
+uid 5705,0
+ro 270
+va (VaSet
+font "Verdana,12,0"
+)
+xt "162600,58000,164000,64500"
+st "serialOut"
+blo "163800,64500"
+tm "WireNameMgr"
+)
+)
+on &17
 )
 ]
 bg "65535,65535,65535"
@@ -3459,9 +3459,9 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "-1928,-259,8,789"
-viewArea "52808,-18143,244942,85349"
-cachedDiagramExtent "20000,-16000,203200,83000"
+windowSize "-1920,-251,1,797"
+viewArea "52865,-18162,243518,85441"
+cachedDiagramExtent "20000,-16000,202000,83000"
 pageSetupInfo (PageSetupInfo
 ptrCmd "\\\\SUN\\PREA309_HPLJ3005DN.PRINTERS.SYSTEM.SION.HEVs,winspool,"
 fileName "Ne00:"
@@ -3487,7 +3487,7 @@ boundaryWidth 0
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "55000,-16000"
-lastUid 5656,0
+lastUid 5707,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0

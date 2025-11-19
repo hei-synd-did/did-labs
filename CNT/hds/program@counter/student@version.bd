@@ -33,23 +33,23 @@ value " "
 )
 (vvPair
 variable "HDLDir"
-value "C:\\dev\\did-labs\\Prefs\\..\\CNT\\hdl"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\CNT\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\dev\\did-labs\\Prefs\\..\\CNT\\hds"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\CNT\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\dev\\did-labs\\Prefs\\..\\CNT\\hds\\program@counter\\student@version.bd.info"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\CNT\\hds\\program@counter\\student@version.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\dev\\did-labs\\Prefs\\..\\CNT\\hds\\program@counter\\student@version.bd.user"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\CNT\\hds\\program@counter\\student@version.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\dev\\did-labs\\Prefs\\..\\CNT\\hds"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\CNT\\hds"
 )
 (vvPair
 variable "appl"
@@ -69,27 +69,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\dev\\did-labs\\Prefs\\..\\CNT\\hds\\program@counter"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\CNT\\hds\\program@counter"
 )
 (vvPair
 variable "d_logical"
-value "C:\\dev\\did-labs\\Prefs\\..\\CNT\\hds\\programCounter"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\CNT\\hds\\programCounter"
 )
 (vvPair
 variable "date"
-value "24.04.2023"
+value "19.11.2025"
 )
 (vvPair
 variable "day"
-value "lun."
+value "mer."
 )
 (vvPair
 variable "day_long"
-value "lundi"
+value "mercredi"
 )
 (vvPair
 variable "dd"
-value "24"
+value "19"
 )
 (vvPair
 variable "designName"
@@ -117,11 +117,11 @@ value "student@version"
 )
 (vvPair
 variable "graphical_source_author"
-value "axel.amand"
+value "Axam"
 )
 (vvPair
 variable "graphical_source_date"
-value "24.04.2023"
+value "19.11.2025"
 )
 (vvPair
 variable "graphical_source_group"
@@ -129,11 +129,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "WE7860"
+value "WE10628"
 )
 (vvPair
 variable "graphical_source_time"
-value "08:33:07"
+value "13:50:31"
 )
 (vvPair
 variable "group"
@@ -141,7 +141,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WE7860"
+value "WE10628"
 )
 (vvPair
 variable "language"
@@ -157,7 +157,7 @@ value "$SCRATCH_DIR/ElN/CNT/work"
 )
 (vvPair
 variable "mm"
-value "04"
+value "11"
 )
 (vvPair
 variable "module_name"
@@ -165,19 +165,19 @@ value "programCounter"
 )
 (vvPair
 variable "month"
-value "avr."
+value "nov."
 )
 (vvPair
 variable "month_long"
-value "avril"
+value "novembre"
 )
 (vvPair
 variable "p"
-value "C:\\dev\\did-labs\\Prefs\\..\\CNT\\hds\\program@counter\\student@version.bd"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\CNT\\hds\\program@counter\\student@version.bd"
 )
 (vvPair
 variable "p_logical"
-value "C:\\dev\\did-labs\\Prefs\\..\\CNT\\hds\\programCounter\\studentVersion.bd"
+value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\CNT\\hds\\programCounter\\studentVersion.bd"
 )
 (vvPair
 variable "package_name"
@@ -245,7 +245,7 @@ value "studentVersion"
 )
 (vvPair
 variable "time"
-value "08:33:07"
+value "13:50:31"
 )
 (vvPair
 variable "unit"
@@ -253,7 +253,7 @@ value "programCounter"
 )
 (vvPair
 variable "user"
-value "axel.amand"
+value "Axam"
 )
 (vvPair
 variable "version"
@@ -265,11 +265,11 @@ value "studentVersion"
 )
 (vvPair
 variable "year"
-value "2023"
+value "2025"
 )
 (vvPair
 variable "yy"
-value "23"
+value "25"
 )
 ]
 )
@@ -289,16 +289,16 @@ optionalChildren [
 uid 11,0
 sl 0
 ro 270
-xt "-1000,30625,500,31375"
+xt "-1000,24625,500,25375"
 )
 (Line
 uid 12,0
 sl 0
 ro 270
-xt "500,31000,1000,31000"
+xt "500,25000,1000,25000"
 pts [
-"500,31000"
-"1000,31000"
+"500,25000"
+"1000,25000"
 ]
 )
 ]
@@ -314,10 +314,10 @@ uid 14,0
 va (VaSet
 isHidden 1
 )
-xt "-5400,30500,-2000,31700"
+xt "-5400,24500,-2000,25700"
 st "clock"
 ju 2
-blo "-2000,31500"
+blo "-2000,25500"
 tm "WireNameMgr"
 )
 )
@@ -335,7 +335,7 @@ uid 22,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "-8000,7200,8000,8000"
+xt "-8000,10200,8000,11000"
 st "clock            : std_ulogic"
 )
 )
@@ -352,16 +352,16 @@ optionalChildren [
 uid 25,0
 sl 0
 ro 270
-xt "-1000,26625,500,27375"
+xt "-1000,20625,500,21375"
 )
 (Line
 uid 26,0
 sl 0
 ro 270
-xt "500,27000,1000,27000"
+xt "500,21000,1000,21000"
 pts [
-"500,27000"
-"1000,27000"
+"500,21000"
+"1000,21000"
 ]
 )
 ]
@@ -377,10 +377,10 @@ uid 28,0
 va (VaSet
 isHidden 1
 )
-xt "-5700,26500,-2000,27700"
+xt "-5700,20500,-2000,21700"
 st "incPC"
 ju 2
-blo "-2000,27500"
+blo "-2000,21500"
 tm "WireNameMgr"
 )
 )
@@ -398,7 +398,7 @@ uid 36,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "-8000,8000,8000,8800"
+xt "-8000,11000,8000,11800"
 st "incPC            : std_ulogic"
 )
 )
@@ -415,16 +415,16 @@ optionalChildren [
 uid 39,0
 sl 0
 ro 270
-xt "-1000,22625,500,23375"
+xt "-1000,40625,500,41375"
 )
 (Line
 uid 40,0
 sl 0
 ro 270
-xt "500,23000,1000,23000"
+xt "500,41000,1000,41000"
 pts [
-"500,23000"
-"1000,23000"
+"500,41000"
+"1000,41000"
 ]
 )
 ]
@@ -440,10 +440,10 @@ uid 42,0
 va (VaSet
 isHidden 1
 )
-xt "-9900,22500,-2000,23700"
+xt "-9900,40500,-2000,41700"
 st "instrAddress"
 ju 2
-blo "-2000,23500"
+blo "-2000,41500"
 tm "WireNameMgr"
 )
 )
@@ -462,7 +462,7 @@ uid 50,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "-8000,8800,23500,9600"
+xt "-8000,11800,23500,12600"
 st "instrAddress     : unsigned(programCounterBitNb-1 DOWNTO 0)"
 )
 )
@@ -479,16 +479,16 @@ optionalChildren [
 uid 53,0
 sl 0
 ro 270
-xt "-1000,20625,500,21375"
+xt "-1000,38625,500,39375"
 )
 (Line
 uid 54,0
 sl 0
 ro 270
-xt "500,21000,1000,21000"
+xt "500,39000,1000,39000"
 pts [
-"500,21000"
-"1000,21000"
+"500,39000"
+"1000,39000"
 ]
 )
 ]
@@ -504,10 +504,10 @@ uid 56,0
 va (VaSet
 isHidden 1
 )
-xt "-12200,20500,-2000,21700"
+xt "-12200,38500,-2000,39700"
 st "loadInstrAddress"
 ju 2
-blo "-2000,21500"
+blo "-2000,39500"
 tm "WireNameMgr"
 )
 )
@@ -525,7 +525,7 @@ uid 64,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "-8000,9600,8000,10400"
+xt "-8000,12600,8000,13400"
 st "loadInstrAddress : std_ulogic"
 )
 )
@@ -542,16 +542,16 @@ optionalChildren [
 uid 67,0
 sl 0
 ro 270
-xt "55500,22625,57000,23375"
+xt "54500,20625,56000,21375"
 )
 (Line
 uid 68,0
 sl 0
 ro 270
-xt "55000,23000,55500,23000"
+xt "54000,21000,54500,21000"
 pts [
-"55000,23000"
-"55500,23000"
+"54000,21000"
+"54500,21000"
 ]
 )
 ]
@@ -567,9 +567,9 @@ uid 70,0
 va (VaSet
 isHidden 1
 )
-xt "58000,22500,65600,23700"
+xt "57000,20500,64600,21700"
 st "progCounter"
-blo "58000,23500"
+blo "57000,21500"
 tm "WireNameMgr"
 )
 )
@@ -588,7 +588,7 @@ uid 78,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "-8000,11200,24500,12000"
+xt "-8000,14200,24500,15000"
 st "progCounter      : unsigned( programCounterBitNb-1 DOWNTO 0 )"
 )
 )
@@ -605,16 +605,16 @@ optionalChildren [
 uid 81,0
 sl 0
 ro 270
-xt "-1000,32625,500,33375"
+xt "-1000,26625,500,27375"
 )
 (Line
 uid 82,0
 sl 0
 ro 270
-xt "500,33000,1000,33000"
+xt "500,27000,1000,27000"
 pts [
-"500,33000"
-"1000,33000"
+"500,27000"
+"1000,27000"
 ]
 )
 ]
@@ -630,10 +630,10 @@ uid 84,0
 va (VaSet
 isHidden 1
 )
-xt "-5300,32500,-2000,33700"
+xt "-5300,26500,-2000,27700"
 st "reset"
 ju 2
-blo "-2000,33500"
+blo "-2000,27500"
 tm "WireNameMgr"
 )
 )
@@ -651,7 +651,7 @@ uid 92,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "-8000,10400,8000,11200"
+xt "-8000,13400,8000,14200"
 st "reset            : std_ulogic"
 )
 )
@@ -987,10 +987,10 @@ uid 16,0
 va (VaSet
 vasetType 3
 )
-xt "1000,31000,11000,31000"
+xt "1000,25000,11000,25000"
 pts [
-"1000,31000"
-"11000,31000"
+"1000,25000"
+"11000,25000"
 ]
 )
 start &1
@@ -1007,9 +1007,9 @@ f (Text
 uid 20,0
 va (VaSet
 )
-xt "3000,30000,5100,31000"
+xt "3000,24000,5100,25000"
 st "clock"
-blo "3000,30800"
+blo "3000,24800"
 tm "WireNameMgr"
 )
 )
@@ -1022,10 +1022,10 @@ uid 30,0
 va (VaSet
 vasetType 3
 )
-xt "1000,27000,11000,27000"
+xt "1000,21000,11000,21000"
 pts [
-"1000,27000"
-"11000,27000"
+"1000,21000"
+"11000,21000"
 ]
 )
 start &3
@@ -1042,9 +1042,9 @@ f (Text
 uid 34,0
 va (VaSet
 )
-xt "3000,26000,5500,27000"
+xt "3000,20000,5500,21000"
 st "incPC"
-blo "3000,26800"
+blo "3000,20800"
 tm "WireNameMgr"
 )
 )
@@ -1058,10 +1058,10 @@ va (VaSet
 vasetType 3
 lineWidth 2
 )
-xt "1000,23000,11000,23000"
+xt "1000,41000,11000,41000"
 pts [
-"1000,23000"
-"11000,23000"
+"1000,41000"
+"11000,41000"
 ]
 )
 start &5
@@ -1080,9 +1080,9 @@ f (Text
 uid 48,0
 va (VaSet
 )
-xt "3000,22000,10900,23200"
+xt "2000,39800,9900,41000"
 st "instrAddress"
-blo "3000,23000"
+blo "2000,40800"
 tm "WireNameMgr"
 )
 )
@@ -1095,10 +1095,10 @@ uid 58,0
 va (VaSet
 vasetType 3
 )
-xt "1000,21000,11000,21000"
+xt "1000,39000,11000,39000"
 pts [
-"1000,21000"
-"11000,21000"
+"1000,39000"
+"11000,39000"
 ]
 )
 start &7
@@ -1115,9 +1115,9 @@ f (Text
 uid 62,0
 va (VaSet
 )
-xt "3000,20000,13200,21200"
+xt "2000,37800,12200,39000"
 st "loadInstrAddress"
-blo "3000,21000"
+blo "2000,38800"
 tm "WireNameMgr"
 )
 )
@@ -1131,10 +1131,10 @@ va (VaSet
 vasetType 3
 lineWidth 2
 )
-xt "45000,23000,55000,23000"
+xt "44000,21000,54000,21000"
 pts [
-"55000,23000"
-"45000,23000"
+"54000,21000"
+"44000,21000"
 ]
 )
 start &9
@@ -1153,9 +1153,9 @@ f (Text
 uid 76,0
 va (VaSet
 )
-xt "50000,22000,57600,23200"
+xt "46000,19800,53600,21000"
 st "progCounter"
-blo "50000,23000"
+blo "46000,20800"
 tm "WireNameMgr"
 )
 )
@@ -1168,10 +1168,10 @@ uid 86,0
 va (VaSet
 vasetType 3
 )
-xt "1000,33000,11000,33000"
+xt "1000,27000,11000,27000"
 pts [
-"1000,33000"
-"11000,33000"
+"1000,27000"
+"11000,27000"
 ]
 )
 start &11
@@ -1188,9 +1188,9 @@ f (Text
 uid 90,0
 va (VaSet
 )
-xt "3000,32000,6300,33200"
+xt "3000,26000,6300,27200"
 st "reset"
-blo "3000,33000"
+blo "3000,27000"
 tm "WireNameMgr"
 )
 )
@@ -1308,12 +1308,12 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "-8,-8,1928,1048"
-viewArea "-11076,-1065,83662,50408"
-cachedDiagramExtent "-12200,0,65600,49000"
+windowSize "-1928,-259,8,789"
+viewArea "-11052,-1073,84397,50340"
+cachedDiagramExtent "-12200,0,64600,49000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-10000,0"
-lastUid 438,0
+lastUid 473,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -2293,18 +2293,18 @@ uid 2,0
 va (VaSet
 font "Arial,8,1"
 )
-xt "-10000,5200,-4600,6200"
+xt "-10000,8200,-4600,9200"
 st "Declarations"
-blo "-10000,6000"
+blo "-10000,9000"
 )
 portLabel (Text
 uid 3,0
 va (VaSet
 font "Arial,8,1"
 )
-xt "-10000,6200,-7300,7200"
+xt "-10000,9200,-7300,10200"
 st "Ports:"
-blo "-10000,7000"
+blo "-10000,10000"
 )
 preUserLabel (Text
 uid 4,0
@@ -2312,9 +2312,9 @@ va (VaSet
 isHidden 1
 font "Arial,8,1"
 )
-xt "-10000,5200,-6200,6200"
+xt "-10000,8200,-6200,9200"
 st "Pre User:"
-blo "-10000,6000"
+blo "-10000,9000"
 )
 preUserText (MLText
 uid 5,0
@@ -2322,7 +2322,7 @@ va (VaSet
 isHidden 1
 font "Courier New,8,0"
 )
-xt "-10000,5200,-10000,5200"
+xt "-10000,8200,-10000,8200"
 tm "BdDeclarativeTextMgr"
 )
 diagSignalLabel (Text
@@ -2330,9 +2330,9 @@ uid 6,0
 va (VaSet
 font "Arial,8,1"
 )
-xt "-10000,12000,-2900,13000"
+xt "-10000,15000,-2900,16000"
 st "Diagram Signals:"
-blo "-10000,12800"
+blo "-10000,15800"
 )
 postUserLabel (Text
 uid 7,0
@@ -2340,9 +2340,9 @@ va (VaSet
 isHidden 1
 font "Arial,8,1"
 )
-xt "-10000,5200,-5300,6200"
+xt "-10000,8200,-5300,9200"
 st "Post User:"
-blo "-10000,6000"
+blo "-10000,9000"
 )
 postUserText (MLText
 uid 8,0
@@ -2350,7 +2350,7 @@ va (VaSet
 isHidden 1
 font "Courier New,8,0"
 )
-xt "-10000,5200,-10000,5200"
+xt "-10000,8200,-10000,8200"
 tm "BdDeclarativeTextMgr"
 )
 )
