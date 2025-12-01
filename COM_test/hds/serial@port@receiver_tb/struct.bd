@@ -213,19 +213,19 @@ value "C:\\dev\\DiD\\did-labs\\Prefs\\..\\COM_test\\hds\\serialPortReceiver_tb"
 )
 (vvPair
 variable "date"
-value "19.11.2025"
+value "01.12.2025"
 )
 (vvPair
 variable "day"
-value "mer."
+value "lun."
 )
 (vvPair
 variable "day_long"
-value "mercredi"
+value "lundi"
 )
 (vvPair
 variable "dd"
-value "19"
+value "01"
 )
 (vvPair
 variable "designName"
@@ -257,7 +257,7 @@ value "Axam"
 )
 (vvPair
 variable "graphical_source_date"
-value "19.11.2025"
+value "01.12.2025"
 )
 (vvPair
 variable "graphical_source_group"
@@ -269,7 +269,7 @@ value "WE10628"
 )
 (vvPair
 variable "graphical_source_time"
-value "13:57:48"
+value "16:51:49"
 )
 (vvPair
 variable "group"
@@ -301,7 +301,7 @@ value "$SCRATCH_DIR/ElN/COM_test/work"
 )
 (vvPair
 variable "mm"
-value "11"
+value "12"
 )
 (vvPair
 variable "module_name"
@@ -309,11 +309,11 @@ value "serialPortReceiver_tb"
 )
 (vvPair
 variable "month"
-value "nov."
+value "déc."
 )
 (vvPair
 variable "month_long"
-value "novembre"
+value "décembre"
 )
 (vvPair
 variable "p"
@@ -397,7 +397,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "13:57:48"
+value "16:51:49"
 )
 (vvPair
 variable "unit"
@@ -3460,7 +3460,7 @@ tm "BdCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "-1920,-251,1,797"
-viewArea "52865,-18162,243518,85441"
+viewArea "52843,-18172,249447,85414"
 cachedDiagramExtent "20000,-16000,202000,83000"
 pageSetupInfo (PageSetupInfo
 ptrCmd "\\\\SUN\\PREA309_HPLJ3005DN.PRINTERS.SYSTEM.SION.HEVs,winspool,"
@@ -3487,7 +3487,7 @@ boundaryWidth 0
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "55000,-16000"
-lastUid 5707,0
+lastUid 5750,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
